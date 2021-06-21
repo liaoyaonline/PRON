@@ -1,0 +1,160 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="StandardDeviation <= 2.475\nGini = 0.489796\nNum_Sample = 98\nValue = [56, 42]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="Kurtosis <= 80.335\nGini = 0.481509\nNum_Sample = 52\nValue = [21, 31]"] ;
+1 -> 3
+1 -> 4
+2 [label="Kurtosis <= 210.09\nGini = 0.363894\nNum_Sample = 46\nValue = [35, 11]"] ;
+2 -> 5
+2 -> 6
+3 [label="Kurtosis <= 98.47\nGini = 0.498457\nNum_Sample = 36\nValue = [17, 19]"] ;
+3 -> 7
+3 -> 8
+4 [label="Kurtosis <= 27.455\nGini = 0.375\nNum_Sample = 16\nValue = [4, 12]"] ;
+4 -> 9
+4 -> 10
+5 [label="StandardDeviation <= 2.185\nGini = 0.486111\nNum_Sample = 24\nValue = [14, 10]"] ;
+5 -> 11
+5 -> 12
+6 [label="StandardDeviation <= 2.255\nGini = 0.0867769\nNum_Sample = 22\nValue = [21, 1]"] ;
+6 -> 13
+6 -> 14
+7 [label="Kurtosis <= 448.815\nGini = 0.470868\nNum_Sample = 29\nValue = [11, 18]"] ;
+7 -> 15
+7 -> 16
+8 [label="Kurtosis <= 87.66\nGini = 0.244898\nNum_Sample = 7\nValue = [6, 1]"] ;
+8 -> 17
+8 -> 18
+9 [label="StandardDeviation <= 3.05\nGini = 0.32\nNum_Sample = 15\nValue = [3, 12]"] ;
+9 -> 19
+9 -> 20
+10 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+11 [label="StandardDeviation <= 2.43\nGini = 0.492188\nNum_Sample = 16\nValue = [7, 9]"] ;
+11 -> 21
+11 -> 22
+12 [label="Kurtosis <= 1007.27\nGini = 0.21875\nNum_Sample = 8\nValue = [7, 1]"] ;
+12 -> 23
+12 -> 24
+13 [label="bad\nGini = 0\nNum_Sample = 18\nValue = [18, 0]"] ;
+14 [label="StandardDeviation <= 2.215\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+14 -> 25
+14 -> 26
+15 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+16 [label="Kurtosis <= 273.6\nGini = 0.459184\nNum_Sample = 28\nValue = [10, 18]"] ;
+16 -> 27
+16 -> 28
+17 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+18 [label="Kurtosis <= 86.585\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+18 -> 29
+18 -> 30
+19 [label="StandardDeviation <= 3.26\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+19 -> 31
+19 -> 32
+20 [label="Kurtosis <= 65.605\nGini = 0.18\nNum_Sample = 10\nValue = [1, 9]"] ;
+20 -> 33
+20 -> 34
+21 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+22 [label="StandardDeviation <= 2.395\nGini = 0.459184\nNum_Sample = 14\nValue = [5, 9]"] ;
+22 -> 35
+22 -> 36
+23 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+24 [label="bad\nGini = 0\nNum_Sample = 7\nValue = [7, 0]"] ;
+25 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+26 [label="bad\nGini = 0\nNum_Sample = 3\nValue = [3, 0]"] ;
+27 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+28 [label="Kurtosis <= 109.175\nGini = 0.486111\nNum_Sample = 24\nValue = [10, 14]"] ;
+28 -> 37
+28 -> 38
+29 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+30 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+31 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+32 [label="Kurtosis <= 74.775\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+32 -> 39
+32 -> 40
+33 [label="Kurtosis <= 69.98\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+33 -> 41
+33 -> 42
+34 [label="good\nGini = 0\nNum_Sample = 6\nValue = [0, 6]"] ;
+35 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+36 [label="Kurtosis <= 412.205\nGini = 0.5\nNum_Sample = 10\nValue = [5, 5]"] ;
+36 -> 43
+36 -> 44
+37 [label="StandardDeviation <= 2.785\nGini = 0.495868\nNum_Sample = 22\nValue = [10, 12]"] ;
+37 -> 45
+37 -> 46
+38 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+39 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+40 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+41 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+42 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+43 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+44 [label="StandardDeviation <= 2.365\nGini = 0.46875\nNum_Sample = 8\nValue = [3, 5]"] ;
+44 -> 47
+44 -> 48
+45 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+46 [label="Kurtosis <= 247.805\nGini = 0.5\nNum_Sample = 20\nValue = [10, 10]"] ;
+46 -> 49
+46 -> 50
+47 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+48 [label="Kurtosis <= 322.34\nGini = 0.408163\nNum_Sample = 7\nValue = [2, 5]"] ;
+48 -> 51
+48 -> 52
+49 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+50 [label="Kurtosis <= 197.565\nGini = 0.498615\nNum_Sample = 19\nValue = [9, 10]"] ;
+50 -> 53
+50 -> 54
+51 [label="Kurtosis <= 375.72\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+51 -> 55
+51 -> 56
+52 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+53 [label="StandardDeviation <= 2.575\nGini = 0.32\nNum_Sample = 5\nValue = [1, 4]"] ;
+53 -> 57
+53 -> 58
+54 [label="Kurtosis <= 172.23\nGini = 0.489796\nNum_Sample = 14\nValue = [8, 6]"] ;
+54 -> 59
+54 -> 60
+55 [label="Kurtosis <= 403.48\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+55 -> 61
+55 -> 62
+56 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+57 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+58 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+59 [label="bad\nGini = 0\nNum_Sample = 3\nValue = [3, 0]"] ;
+60 [label="Kurtosis <= 113.08\nGini = 0.495868\nNum_Sample = 11\nValue = [5, 6]"] ;
+60 -> 63
+60 -> 64
+61 [label="Kurtosis <= 405.515\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+61 -> 65
+61 -> 66
+62 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+63 [label="StandardDeviation <= 2.745\nGini = 0.48\nNum_Sample = 10\nValue = [4, 6]"] ;
+63 -> 67
+63 -> 68
+64 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+65 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+66 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+67 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+68 [label="Kurtosis <= 114.005\nGini = 0.444444\nNum_Sample = 9\nValue = [3, 6]"] ;
+68 -> 69
+68 -> 70
+69 [label="Kurtosis <= 115.58\nGini = 0.489796\nNum_Sample = 7\nValue = [3, 4]"] ;
+69 -> 71
+69 -> 72
+70 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+71 [label="StandardDeviation <= 2.61\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+71 -> 73
+71 -> 74
+72 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+73 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+74 [label="Kurtosis <= 160.67\nGini = 0.5\nNum_Sample = 4\nValue = [2, 2]"] ;
+74 -> 75
+74 -> 76
+75 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+76 [label="Kurtosis <= 131.985\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+76 -> 77
+76 -> 78
+77 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+78 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+}

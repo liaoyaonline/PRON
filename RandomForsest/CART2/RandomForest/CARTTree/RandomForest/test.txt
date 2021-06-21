@@ -1,0 +1,6 @@
+x r
+hero die
+5 6
+3 test
+2 4
+1 2

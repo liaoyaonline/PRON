@@ -1,0 +1,365 @@
+请输入属性:
+属性:
+Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+Sepal.Length Sepal.Width Petal.Length Petal.Width Species Sepal.Length Sepal.Width Petal.Length Petal.Width Species  请输入样本数目
+150
+请输入样本:
+5.1	3.5	1.4	0.2	setosa	
+Sepal.Length5.1Sepal.Width3.5Petal.Length1.4Petal.Width0.2Speciessetosa
+4.9	3	1.4	0.2	setosa	
+Sepal.Length4.9Sepal.Width3Petal.Length1.4Petal.Width0.2Speciessetosa
+4.7	3.2	1.3	0.2	setosa	
+Sepal.Length4.7Sepal.Width3.2Petal.Length1.3Petal.Width0.2Speciessetosa
+4.6	3.1	1.5	0.2	setosa	
+Sepal.Length4.6Sepal.Width3.1Petal.Length1.5Petal.Width0.2Speciessetosa
+5	3.6	1.4	0.2	setosa	
+Sepal.Length5Sepal.Width3.6Petal.Length1.4Petal.Width0.2Speciessetosa
+5.4	3.9	1.7	0.4	setosa	
+Sepal.Length5.4Sepal.Width3.9Petal.Length1.7Petal.Width0.4Speciessetosa
+4.6	3.4	1.4	0.3	setosa	
+Sepal.Length4.6Sepal.Width3.4Petal.Length1.4Petal.Width0.3Speciessetosa
+5	3.4	1.5	0.2	setosa	
+Sepal.Length5Sepal.Width3.4Petal.Length1.5Petal.Width0.2Speciessetosa
+4.4	2.9	1.4	0.2	setosa	
+Sepal.Length4.4Sepal.Width2.9Petal.Length1.4Petal.Width0.2Speciessetosa
+4.9	3.1	1.5	0.1	setosa	
+Sepal.Length4.9Sepal.Width3.1Petal.Length1.5Petal.Width0.1Speciessetosa
+5.4	3.7	1.5	0.2	setosa	
+Sepal.Length5.4Sepal.Width3.7Petal.Length1.5Petal.Width0.2Speciessetosa
+4.8	3.4	1.6	0.2	setosa	
+Sepal.Length4.8Sepal.Width3.4Petal.Length1.6Petal.Width0.2Speciessetosa
+4.8	3	1.4	0.1	setosa	
+Sepal.Length4.8Sepal.Width3Petal.Length1.4Petal.Width0.1Speciessetosa
+4.3	3	1.1	0.1	setosa	
+Sepal.Length4.3Sepal.Width3Petal.Length1.1Petal.Width0.1Speciessetosa
+5.8	4	1.2	0.2	setosa	
+Sepal.Length5.8Sepal.Width4Petal.Length1.2Petal.Width0.2Speciessetosa
+5.7	4.4	1.5	0.4	setosa	
+Sepal.Length5.7Sepal.Width4.4Petal.Length1.5Petal.Width0.4Speciessetosa
+5.4	3.9	1.3	0.4	setosa	
+Sepal.Length5.4Sepal.Width3.9Petal.Length1.3Petal.Width0.4Speciessetosa
+5.1	3.5	1.4	0.3	setosa	
+Sepal.Length5.1Sepal.Width3.5Petal.Length1.4Petal.Width0.3Speciessetosa
+5.7	3.8	1.7	0.3	setosa	
+Sepal.Length5.7Sepal.Width3.8Petal.Length1.7Petal.Width0.3Speciessetosa
+5.1	3.8	1.5	0.3	setosa	
+Sepal.Length5.1Sepal.Width3.8Petal.Length1.5Petal.Width0.3Speciessetosa
+5.4	3.4	1.7	0.2	setosa	
+Sepal.Length5.4Sepal.Width3.4Petal.Length1.7Petal.Width0.2Speciessetosa
+5.1	3.7	1.5	0.4	setosa	
+Sepal.Length5.1Sepal.Width3.7Petal.Length1.5Petal.Width0.4Speciessetosa
+4.6	3.6	1	0.2	setosa	
+Sepal.Length4.6Sepal.Width3.6Petal.Length1Petal.Width0.2Speciessetosa
+5.1	3.3	1.7	0.5	setosa	
+Sepal.Length5.1Sepal.Width3.3Petal.Length1.7Petal.Width0.5Speciessetosa
+4.8	3.4	1.9	0.2	setosa	
+Sepal.Length4.8Sepal.Width3.4Petal.Length1.9Petal.Width0.2Speciessetosa
+5	3	1.6	0.2	setosa	
+Sepal.Length5Sepal.Width3Petal.Length1.6Petal.Width0.2Speciessetosa
+5	3.4	1.6	0.4	setosa	
+Sepal.Length5Sepal.Width3.4Petal.Length1.6Petal.Width0.4Speciessetosa
+5.2	3.5	1.5	0.2	setosa	
+Sepal.Length5.2Sepal.Width3.5Petal.Length1.5Petal.Width0.2Speciessetosa
+5.2	3.4	1.4	0.2	setosa	
+Sepal.Length5.2Sepal.Width3.4Petal.Length1.4Petal.Width0.2Speciessetosa
+4.7	3.2	1.6	0.2	setosa	
+Sepal.Length4.7Sepal.Width3.2Petal.Length1.6Petal.Width0.2Speciessetosa
+4.8	3.1	1.6	0.2	setosa	
+Sepal.Length4.8Sepal.Width3.1Petal.Length1.6Petal.Width0.2Speciessetosa
+5.4	3.4	1.5	0.4	setosa	
+Sepal.Length5.4Sepal.Width3.4Petal.Length1.5Petal.Width0.4Speciessetosa
+5.2	4.1	1.5	0.1	setosa	
+Sepal.Length5.2Sepal.Width4.1Petal.Length1.5Petal.Width0.1Speciessetosa
+5.5	4.2	1.4	0.2	setosa	
+Sepal.Length5.5Sepal.Width4.2Petal.Length1.4Petal.Width0.2Speciessetosa
+4.9	3.1	1.5	0.2	setosa	
+Sepal.Length4.9Sepal.Width3.1Petal.Length1.5Petal.Width0.2Speciessetosa
+5	3.2	1.2	0.2	setosa	
+Sepal.Length5Sepal.Width3.2Petal.Length1.2Petal.Width0.2Speciessetosa
+5.5	3.5	1.3	0.2	setosa	
+Sepal.Length5.5Sepal.Width3.5Petal.Length1.3Petal.Width0.2Speciessetosa
+4.9	3.6	1.4	0.1	setosa	
+Sepal.Length4.9Sepal.Width3.6Petal.Length1.4Petal.Width0.1Speciessetosa
+4.4	3	1.3	0.2	setosa	
+Sepal.Length4.4Sepal.Width3Petal.Length1.3Petal.Width0.2Speciessetosa
+5.1	3.4	1.5	0.2	setosa	
+Sepal.Length5.1Sepal.Width3.4Petal.Length1.5Petal.Width0.2Speciessetosa
+5	3.5	1.3	0.3	setosa	
+Sepal.Length5Sepal.Width3.5Petal.Length1.3Petal.Width0.3Speciessetosa
+4.5	2.3	1.3	0.3	setosa	
+Sepal.Length4.5Sepal.Width2.3Petal.Length1.3Petal.Width0.3Speciessetosa
+4.4	3.2	1.3	0.2	setosa	
+Sepal.Length4.4Sepal.Width3.2Petal.Length1.3Petal.Width0.2Speciessetosa
+5	3.5	1.6	0.6	setosa	
+Sepal.Length5Sepal.Width3.5Petal.Length1.6Petal.Width0.6Speciessetosa
+5.1	3.8	1.9	0.4	setosa	
+Sepal.Length5.1Sepal.Width3.8Petal.Length1.9Petal.Width0.4Speciessetosa
+4.8	3	1.4	0.3	setosa	
+Sepal.Length4.8Sepal.Width3Petal.Length1.4Petal.Width0.3Speciessetosa
+5.1	3.8	1.6	0.2	setosa	
+Sepal.Length5.1Sepal.Width3.8Petal.Length1.6Petal.Width0.2Speciessetosa
+4.6	3.2	1.4	0.2	setosa	
+Sepal.Length4.6Sepal.Width3.2Petal.Length1.4Petal.Width0.2Speciessetosa
+5.3	3.7	1.5	0.2	setosa	
+Sepal.Length5.3Sepal.Width3.7Petal.Length1.5Petal.Width0.2Speciessetosa
+5	3.3	1.4	0.2	setosa	
+Sepal.Length5Sepal.Width3.3Petal.Length1.4Petal.Width0.2Speciessetosa
+7	3.2	4.7	1.4	versicolor	
+Sepal.Length7Sepal.Width3.2Petal.Length4.7Petal.Width1.4Speciesversicolor
+6.4	3.2	4.5	1.5	versicolor	
+Sepal.Length6.4Sepal.Width3.2Petal.Length4.5Petal.Width1.5Speciesversicolor
+6.9	3.1	4.9	1.5	versicolor	
+Sepal.Length6.9Sepal.Width3.1Petal.Length4.9Petal.Width1.5Speciesversicolor
+5.5	2.3	4	1.3	versicolor	
+Sepal.Length5.5Sepal.Width2.3Petal.Length4Petal.Width1.3Speciesversicolor
+6.5	2.8	4.6	1.5	versicolor	
+Sepal.Length6.5Sepal.Width2.8Petal.Length4.6Petal.Width1.5Speciesversicolor
+5.7	2.8	4.5	1.3	versicolor	
+Sepal.Length5.7Sepal.Width2.8Petal.Length4.5Petal.Width1.3Speciesversicolor
+6.3	3.3	4.7	1.6	versicolor	
+Sepal.Length6.3Sepal.Width3.3Petal.Length4.7Petal.Width1.6Speciesversicolor
+4.9	2.4	3.3	1	versicolor	
+Sepal.Length4.9Sepal.Width2.4Petal.Length3.3Petal.Width1Speciesversicolor
+6.6	2.9	4.6	1.3	versicolor	
+Sepal.Length6.6Sepal.Width2.9Petal.Length4.6Petal.Width1.3Speciesversicolor
+5.2	2.7	3.9	1.4	versicolor	
+Sepal.Length5.2Sepal.Width2.7Petal.Length3.9Petal.Width1.4Speciesversicolor
+5	2	3.5	1	versicolor	
+Sepal.Length5Sepal.Width2Petal.Length3.5Petal.Width1Speciesversicolor
+5.9	3	4.2	1.5	versicolor	
+Sepal.Length5.9Sepal.Width3Petal.Length4.2Petal.Width1.5Speciesversicolor
+6	2.2	4	1	versicolor	
+Sepal.Length6Sepal.Width2.2Petal.Length4Petal.Width1Speciesversicolor
+6.1	2.9	4.7	1.4	versicolor	
+Sepal.Length6.1Sepal.Width2.9Petal.Length4.7Petal.Width1.4Speciesversicolor
+5.6	2.9	3.6	1.3	versicolor	
+Sepal.Length5.6Sepal.Width2.9Petal.Length3.6Petal.Width1.3Speciesversicolor
+6.7	3.1	4.4	1.4	versicolor	
+Sepal.Length6.7Sepal.Width3.1Petal.Length4.4Petal.Width1.4Speciesversicolor
+5.6	3	4.5	1.5	versicolor	
+Sepal.Length5.6Sepal.Width3Petal.Length4.5Petal.Width1.5Speciesversicolor
+5.8	2.7	4.1	1	versicolor	
+Sepal.Length5.8Sepal.Width2.7Petal.Length4.1Petal.Width1Speciesversicolor
+6.2	2.2	4.5	1.5	versicolor	
+Sepal.Length6.2Sepal.Width2.2Petal.Length4.5Petal.Width1.5Speciesversicolor
+5.6	2.5	3.9	1.1	versicolor	
+Sepal.Length5.6Sepal.Width2.5Petal.Length3.9Petal.Width1.1Speciesversicolor
+5.9	3.2	4.8	1.8	versicolor	
+Sepal.Length5.9Sepal.Width3.2Petal.Length4.8Petal.Width1.8Speciesversicolor
+6.1	2.8	4	1.3	versicolor	
+Sepal.Length6.1Sepal.Width2.8Petal.Length4Petal.Width1.3Speciesversicolor
+6.3	2.5	4.9	1.5	versicolor	
+Sepal.Length6.3Sepal.Width2.5Petal.Length4.9Petal.Width1.5Speciesversicolor
+6.1	2.8	4.7	1.2	versicolor	
+Sepal.Length6.1Sepal.Width2.8Petal.Length4.7Petal.Width1.2Speciesversicolor
+6.4	2.9	4.3	1.3	versicolor	
+Sepal.Length6.4Sepal.Width2.9Petal.Length4.3Petal.Width1.3Speciesversicolor
+6.6	3	4.4	1.4	versicolor	
+Sepal.Length6.6Sepal.Width3Petal.Length4.4Petal.Width1.4Speciesversicolor
+6.8	2.8	4.8	1.4	versicolor	
+Sepal.Length6.8Sepal.Width2.8Petal.Length4.8Petal.Width1.4Speciesversicolor
+6.7	3	5	1.7	versicolor	
+Sepal.Length6.7Sepal.Width3Petal.Length5Petal.Width1.7Speciesversicolor
+6	2.9	4.5	1.5	versicolor	
+Sepal.Length6Sepal.Width2.9Petal.Length4.5Petal.Width1.5Speciesversicolor
+5.7	2.6	3.5	1	versicolor	
+Sepal.Length5.7Sepal.Width2.6Petal.Length3.5Petal.Width1Speciesversicolor
+5.5	2.4	3.8	1.1	versicolor	
+Sepal.Length5.5Sepal.Width2.4Petal.Length3.8Petal.Width1.1Speciesversicolor
+5.5	2.4	3.7	1	versicolor	
+Sepal.Length5.5Sepal.Width2.4Petal.Length3.7Petal.Width1Speciesversicolor
+5.8	2.7	3.9	1.2	versicolor	
+Sepal.Length5.8Sepal.Width2.7Petal.Length3.9Petal.Width1.2Speciesversicolor
+6	2.7	5.1	1.6	versicolor	
+Sepal.Length6Sepal.Width2.7Petal.Length5.1Petal.Width1.6Speciesversicolor
+5.4	3	4.5	1.5	versicolor	
+Sepal.Length5.4Sepal.Width3Petal.Length4.5Petal.Width1.5Speciesversicolor
+6	3.4	4.5	1.6	versicolor	
+Sepal.Length6Sepal.Width3.4Petal.Length4.5Petal.Width1.6Speciesversicolor
+6.7	3.1	4.7	1.5	versicolor	
+Sepal.Length6.7Sepal.Width3.1Petal.Length4.7Petal.Width1.5Speciesversicolor
+6.3	2.3	4.4	1.3	versicolor	
+Sepal.Length6.3Sepal.Width2.3Petal.Length4.4Petal.Width1.3Speciesversicolor
+5.6	3	4.1	1.3	versicolor	
+Sepal.Length5.6Sepal.Width3Petal.Length4.1Petal.Width1.3Speciesversicolor
+5.5	2.5	4	1.3	versicolor	
+Sepal.Length5.5Sepal.Width2.5Petal.Length4Petal.Width1.3Speciesversicolor
+5.5	2.6	4.4	1.2	versicolor	
+Sepal.Length5.5Sepal.Width2.6Petal.Length4.4Petal.Width1.2Speciesversicolor
+6.1	3	4.6	1.4	versicolor	
+Sepal.Length6.1Sepal.Width3Petal.Length4.6Petal.Width1.4Speciesversicolor
+5.8	2.6	4	1.2	versicolor	
+Sepal.Length5.8Sepal.Width2.6Petal.Length4Petal.Width1.2Speciesversicolor
+5	2.3	3.3	1	versicolor	
+Sepal.Length5Sepal.Width2.3Petal.Length3.3Petal.Width1Speciesversicolor
+5.6	2.7	4.2	1.3	versicolor	
+Sepal.Length5.6Sepal.Width2.7Petal.Length4.2Petal.Width1.3Speciesversicolor
+5.7	3	4.2	1.2	versicolor	
+Sepal.Length5.7Sepal.Width3Petal.Length4.2Petal.Width1.2Speciesversicolor
+5.7	2.9	4.2	1.3	versicolor	
+Sepal.Length5.7Sepal.Width2.9Petal.Length4.2Petal.Width1.3Speciesversicolor
+6.2	2.9	4.3	1.3	versicolor	
+Sepal.Length6.2Sepal.Width2.9Petal.Length4.3Petal.Width1.3Speciesversicolor
+5.1	2.5	3	1.1	versicolor	
+Sepal.Length5.1Sepal.Width2.5Petal.Length3Petal.Width1.1Speciesversicolor
+5.7	2.8	4.1	1.3	versicolor	
+Sepal.Length5.7Sepal.Width2.8Petal.Length4.1Petal.Width1.3Speciesversicolor
+6.3	3.3	6	2.5	virginica	
+Sepal.Length6.3Sepal.Width3.3Petal.Length6Petal.Width2.5Speciesvirginica
+5.8	2.7	5.1	1.9	virginica	
+Sepal.Length5.8Sepal.Width2.7Petal.Length5.1Petal.Width1.9Speciesvirginica
+7.1	3	5.9	2.1	virginica	
+Sepal.Length7.1Sepal.Width3Petal.Length5.9Petal.Width2.1Speciesvirginica
+6.3	2.9	5.6	1.8	virginica	
+Sepal.Length6.3Sepal.Width2.9Petal.Length5.6Petal.Width1.8Speciesvirginica
+6.5	3	5.8	2.2	virginica	
+Sepal.Length6.5Sepal.Width3Petal.Length5.8Petal.Width2.2Speciesvirginica
+7.6	3	6.6	2.1	virginica	
+Sepal.Length7.6Sepal.Width3Petal.Length6.6Petal.Width2.1Speciesvirginica
+4.9	2.5	4.5	1.7	virginica	
+Sepal.Length4.9Sepal.Width2.5Petal.Length4.5Petal.Width1.7Speciesvirginica
+7.3	2.9	6.3	1.8	virginica	
+Sepal.Length7.3Sepal.Width2.9Petal.Length6.3Petal.Width1.8Speciesvirginica
+6.7	2.5	5.8	1.8	virginica	
+Sepal.Length6.7Sepal.Width2.5Petal.Length5.8Petal.Width1.8Speciesvirginica
+7.2	3.6	6.1	2.5	virginica	
+Sepal.Length7.2Sepal.Width3.6Petal.Length6.1Petal.Width2.5Speciesvirginica
+6.5	3.2	5.1	2	virginica	
+Sepal.Length6.5Sepal.Width3.2Petal.Length5.1Petal.Width2Speciesvirginica
+6.4	2.7	5.3	1.9	virginica	
+Sepal.Length6.4Sepal.Width2.7Petal.Length5.3Petal.Width1.9Speciesvirginica
+6.8	3	5.5	2.1	virginica	
+Sepal.Length6.8Sepal.Width3Petal.Length5.5Petal.Width2.1Speciesvirginica
+5.7	2.5	5	2	virginica	
+Sepal.Length5.7Sepal.Width2.5Petal.Length5Petal.Width2Speciesvirginica
+5.8	2.8	5.1	2.4	virginica	
+Sepal.Length5.8Sepal.Width2.8Petal.Length5.1Petal.Width2.4Speciesvirginica
+6.4	3.2	5.3	2.3	virginica	
+Sepal.Length6.4Sepal.Width3.2Petal.Length5.3Petal.Width2.3Speciesvirginica
+6.5	3	5.5	1.8	virginica	
+Sepal.Length6.5Sepal.Width3Petal.Length5.5Petal.Width1.8Speciesvirginica
+7.7	3.8	6.7	2.2	virginica	
+Sepal.Length7.7Sepal.Width3.8Petal.Length6.7Petal.Width2.2Speciesvirginica
+7.7	2.6	6.9	2.3	virginica	
+Sepal.Length7.7Sepal.Width2.6Petal.Length6.9Petal.Width2.3Speciesvirginica
+6	2.2	5	1.5	virginica	
+Sepal.Length6Sepal.Width2.2Petal.Length5Petal.Width1.5Speciesvirginica
+6.9	3.2	5.7	2.3	virginica	
+Sepal.Length6.9Sepal.Width3.2Petal.Length5.7Petal.Width2.3Speciesvirginica
+5.6	2.8	4.9	2	virginica	
+Sepal.Length5.6Sepal.Width2.8Petal.Length4.9Petal.Width2Speciesvirginica
+7.7	2.8	6.7	2	virginica	
+Sepal.Length7.7Sepal.Width2.8Petal.Length6.7Petal.Width2Speciesvirginica
+6.3	2.7	4.9	1.8	virginica	
+Sepal.Length6.3Sepal.Width2.7Petal.Length4.9Petal.Width1.8Speciesvirginica
+6.7	3.3	5.7	2.1	virginica	
+Sepal.Length6.7Sepal.Width3.3Petal.Length5.7Petal.Width2.1Speciesvirginica
+7.2	3.2	6	1.8	virginica	
+Sepal.Length7.2Sepal.Width3.2Petal.Length6Petal.Width1.8Speciesvirginica
+6.2	2.8	4.8	1.8	virginica	
+Sepal.Length6.2Sepal.Width2.8Petal.Length4.8Petal.Width1.8Speciesvirginica
+6.1	3	4.9	1.8	virginica	
+Sepal.Length6.1Sepal.Width3Petal.Length4.9Petal.Width1.8Speciesvirginica
+6.4	2.8	5.6	2.1	virginica	
+Sepal.Length6.4Sepal.Width2.8Petal.Length5.6Petal.Width2.1Speciesvirginica
+7.2	3	5.8	1.6	virginica	
+Sepal.Length7.2Sepal.Width3Petal.Length5.8Petal.Width1.6Speciesvirginica
+7.4	2.8	6.1	1.9	virginica	
+Sepal.Length7.4Sepal.Width2.8Petal.Length6.1Petal.Width1.9Speciesvirginica
+7.9	3.8	6.4	2	virginica	
+Sepal.Length7.9Sepal.Width3.8Petal.Length6.4Petal.Width2Speciesvirginica
+6.4	2.8	5.6	2.2	virginica	
+Sepal.Length6.4Sepal.Width2.8Petal.Length5.6Petal.Width2.2Speciesvirginica
+6.3	2.8	5.1	1.5	virginica	
+Sepal.Length6.3Sepal.Width2.8Petal.Length5.1Petal.Width1.5Speciesvirginica
+6.1	2.6	5.6	1.4	virginica	
+Sepal.Length6.1Sepal.Width2.6Petal.Length5.6Petal.Width1.4Speciesvirginica
+7.7	3	6.1	2.3	virginica	
+Sepal.Length7.7Sepal.Width3Petal.Length6.1Petal.Width2.3Speciesvirginica
+6.3	3.4	5.6	2.4	virginica	
+Sepal.Length6.3Sepal.Width3.4Petal.Length5.6Petal.Width2.4Speciesvirginica
+6.4	3.1	5.5	1.8	virginica	
+Sepal.Length6.4Sepal.Width3.1Petal.Length5.5Petal.Width1.8Speciesvirginica
+6	3	4.8	1.8	virginica	
+Sepal.Length6Sepal.Width3Petal.Length4.8Petal.Width1.8Speciesvirginica
+6.9	3.1	5.4	2.1	virginica	
+Sepal.Length6.9Sepal.Width3.1Petal.Length5.4Petal.Width2.1Speciesvirginica
+6.7	3.1	5.6	2.4	virginica	
+Sepal.Length6.7Sepal.Width3.1Petal.Length5.6Petal.Width2.4Speciesvirginica
+6.9	3.1	5.1	2.3	virginica	
+Sepal.Length6.9Sepal.Width3.1Petal.Length5.1Petal.Width2.3Speciesvirginica
+5.8	2.7	5.1	1.9	virginica	
+Sepal.Length5.8Sepal.Width2.7Petal.Length5.1Petal.Width1.9Speciesvirginica
+6.8	3.2	5.9	2.3	virginica	
+Sepal.Length6.8Sepal.Width3.2Petal.Length5.9Petal.Width2.3Speciesvirginica
+6.7	3.3	5.7	2.5	virginica	
+Sepal.Length6.7Sepal.Width3.3Petal.Length5.7Petal.Width2.5Speciesvirginica
+6.7	3	5.2	2.3	virginica	
+Sepal.Length6.7Sepal.Width3Petal.Length5.2Petal.Width2.3Speciesvirginica
+6.3	2.5	5	1.9	virginica	
+Sepal.Length6.3Sepal.Width2.5Petal.Length5Petal.Width1.9Speciesvirginica
+6.5	3	5.2	2	virginica	
+Sepal.Length6.5Sepal.Width3Petal.Length5.2Petal.Width2Speciesvirginica
+6.2	3.4	5.4	2.3	virginica	
+Sepal.Length6.2Sepal.Width3.4Petal.Length5.4Petal.Width2.3Speciesvirginica
+5.9	3	5.1	1.8	virginica	
+Sepal.Length5.9Sepal.Width3Petal.Length5.1Petal.Width1.8Speciesvirginica
+Species
+setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa setosa versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor versicolor virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica virginica 
+Sepal.Width
+3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 3.7 3.4 3 3 4 4.4 3.9 3.5 3.8 3.8 3.4 3.7 3.6 3.3 3.4 3 3.4 3.5 3.4 3.2 3.1 3.4 4.1 4.2 3.1 3.2 3.5 3.6 3 3.4 3.5 2.3 3.2 3.5 3.8 3 3.8 3.2 3.7 3.3 3.2 3.2 3.1 2.3 2.8 2.8 3.3 2.4 2.9 2.7 2 3 2.2 2.9 2.9 3.1 3 2.7 2.2 2.5 3.2 2.8 2.5 2.8 2.9 3 2.8 3 2.9 2.6 2.4 2.4 2.7 2.7 3 3.4 3.1 2.3 3 2.5 2.6 3 2.6 2.3 2.7 3 2.9 2.9 2.5 2.8 3.3 2.7 3 2.9 3 3 2.5 2.9 2.5 3.6 3.2 2.7 3 2.5 2.8 3.2 3 3.8 2.6 2.2 3.2 2.8 2.8 2.7 3.3 3.2 2.8 3 2.8 3 2.8 3.8 2.8 2.8 2.6 3 3.4 3.1 3 3.1 3.1 3.1 2.7 3.2 3.3 3 2.5 3 3.4 3 
+Sepal.Length
+5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 5.4 4.8 4.8 4.3 5.8 5.7 5.4 5.1 5.7 5.1 5.4 5.1 4.6 5.1 4.8 5 5 5.2 5.2 4.7 4.8 5.4 5.2 5.5 4.9 5 5.5 4.9 4.4 5.1 5 4.5 4.4 5 5.1 4.8 5.1 4.6 5.3 5 7 6.4 6.9 5.5 6.5 5.7 6.3 4.9 6.6 5.2 5 5.9 6 6.1 5.6 6.7 5.6 5.8 6.2 5.6 5.9 6.1 6.3 6.1 6.4 6.6 6.8 6.7 6 5.7 5.5 5.5 5.8 6 5.4 6 6.7 6.3 5.6 5.5 5.5 6.1 5.8 5 5.6 5.7 5.7 6.2 5.1 5.7 6.3 5.8 7.1 6.3 6.5 7.6 4.9 7.3 6.7 7.2 6.5 6.4 6.8 5.7 5.8 6.4 6.5 7.7 7.7 6 6.9 5.6 7.7 6.3 6.7 7.2 6.2 6.1 6.4 7.2 7.4 7.9 6.4 6.3 6.1 7.7 6.3 6.4 6 6.9 6.7 6.9 5.8 6.8 6.7 6.7 6.3 6.5 6.2 5.9 
+Petal.Width
+0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 0.2 0.2 0.1 0.1 0.2 0.4 0.4 0.3 0.3 0.3 0.2 0.4 0.2 0.5 0.2 0.2 0.4 0.2 0.2 0.2 0.2 0.4 0.1 0.2 0.2 0.2 0.2 0.1 0.2 0.2 0.3 0.3 0.2 0.6 0.4 0.3 0.2 0.2 0.2 0.2 1.4 1.5 1.5 1.3 1.5 1.3 1.6 1 1.3 1.4 1 1.5 1 1.4 1.3 1.4 1.5 1 1.5 1.1 1.8 1.3 1.5 1.2 1.3 1.4 1.4 1.7 1.5 1 1.1 1 1.2 1.6 1.5 1.6 1.5 1.3 1.3 1.3 1.2 1.4 1.2 1 1.3 1.2 1.3 1.3 1.1 1.3 2.5 1.9 2.1 1.8 2.2 2.1 1.7 1.8 1.8 2.5 2 1.9 2.1 2 2.4 2.3 1.8 2.2 2.3 1.5 2.3 2 2 1.8 2.1 1.8 1.8 1.8 2.1 1.6 1.9 2 2.2 1.5 1.4 2.3 2.4 1.8 1.8 2.1 2.4 2.3 1.9 2.3 2.5 2.3 1.9 2 2.3 1.8 
+Petal.Length
+1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 1.5 1.6 1.4 1.1 1.2 1.5 1.3 1.4 1.7 1.5 1.7 1.5 1 1.7 1.9 1.6 1.6 1.5 1.4 1.6 1.6 1.5 1.5 1.4 1.5 1.2 1.3 1.4 1.3 1.5 1.3 1.3 1.3 1.6 1.9 1.4 1.6 1.4 1.5 1.4 4.7 4.5 4.9 4 4.6 4.5 4.7 3.3 4.6 3.9 3.5 4.2 4 4.7 3.6 4.4 4.5 4.1 4.5 3.9 4.8 4 4.9 4.7 4.3 4.4 4.8 5 4.5 3.5 3.8 3.7 3.9 5.1 4.5 4.5 4.7 4.4 4.1 4 4.4 4.6 4 3.3 4.2 4.2 4.2 4.3 3 4.1 6 5.1 5.9 5.6 5.8 6.6 4.5 6.3 5.8 6.1 5.1 5.3 5.5 5 5.1 5.3 5.5 6.7 6.9 5 5.7 4.9 6.7 4.9 5.7 6 4.8 4.9 5.6 5.8 6.1 6.4 5.6 5.1 5.6 6.1 5.6 5.5 4.8 5.4 5.6 5.1 5.1 5.9 5.7 5.2 5 5.2 5.4 5.1 
+Species
+setosa versicolor virginica 
+Sepal.Width
+2 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3 3.1 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4 4.1 4.2 4.4 
+Sepal.Length
+4.3 4.4 4.5 4.6 4.7 4.8 4.9 5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9 6 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8 6.9 7 7.1 7.2 7.3 7.4 7.6 7.7 7.9 
+Petal.Width
+0.1 0.2 0.3 0.4 0.5 0.6 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2 2.1 2.2 2.3 2.4 2.5 
+Petal.Length
+1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.9 3 3.3 3.5 3.6 3.7 3.8 3.9 4 4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9 6 6.1 6.3 6.4 6.6 6.7 6.9 
+开始生成决策树
+150
+100
+46
+39
+7
+1
+6
+54
+1
+53
+22
+31
+50
+node_AttributePetal.Length
+当前值:>2.45->子节点:Petal.Width
+当前值:<2.45->子节点:setosa
+node_AttributePetal.Width
+当前值:>1.75->子节点:Sepal.Length
+当前值:<1.75->子节点:Sepal.Length
+node_Attributesetosa
+node_AttributeSepal.Length
+当前值:>5.95->子节点:virginica
+当前值:<5.95->子节点:Sepal.Width
+node_AttributeSepal.Length
+当前值:>7.15->子节点:virginica
+当前值:<7.15->子节点:Sepal.Width
+node_Attributevirginica
+node_AttributeSepal.Width
+当前值:>3.15->子节点:versicolor
+当前值:<3.15->子节点:virginica
+node_Attributevirginica
+node_AttributeSepal.Width
+当前值:>2.85->子节点:versicolor
+当前值:<2.85->子节点:versicolor
+node_Attributeversicolor
+node_Attributevirginica
+node_Attributeversicolor
+node_Attributeversicolor

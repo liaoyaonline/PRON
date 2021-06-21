@@ -1,0 +1,248 @@
+BookScore---BookScoreCount---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+此特征子集入选
+Mode---Median---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 86预测错误数目为: 68子树数目为: 120包外错误率为: 0.441558
+BookScore---AddListCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+此特征子集入选
+AddListCount---Mode---Median---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 85预测错误数目为: 69子树数目为: 120包外错误率为: 0.448052
+BookWordCount---BookScore---AddListCount---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookScoreCount---AddListCount---Mode---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---Mode---Median---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 87预测错误数目为: 67子树数目为: 120包外错误率为: 0.435065
+BookWordCount---BookScoreCount---AddListCount---Median---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 101预测错误数目为: 53子树数目为: 120包外错误率为: 0.344156
+此特征子集入选
+BookScore---BookScoreCount---AddListCount---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScore---AddListCount---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookScore---BookScoreCount---AddListCount---Mode---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScore---AddListCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScoreCount---AddListCount---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScoreCount---AddListCount---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 85预测错误数目为: 69子树数目为: 120包外错误率为: 0.448052
+BookWordCount---BookScore---Mode---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 87预测错误数目为: 67子树数目为: 120包外错误率为: 0.435065
+BookWordCount---BookScore---BookScoreCount---AddListCount---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 94预测错误数目为: 60子树数目为: 120包外错误率为: 0.38961
+BookWordCount---BookScore---BookScoreCount---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookWordCount---BookScoreCount---AddListCount---Median---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 104预测错误数目为: 50子树数目为: 120包外错误率为: 0.324675
+此特征子集入选
+BookScore---BookScoreCount---Median---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---AddListCount---Median---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookWordCount---BookScoreCount---Mode---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---BookScoreCount---Median---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 86预测错误数目为: 68子树数目为: 120包外错误率为: 0.441558
+BookWordCount---BookScore---Mode---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookScore---Mode---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 85预测错误数目为: 69子树数目为: 120包外错误率为: 0.448052
+BookScore---BookScoreCount---AddListCount---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---BookScoreCount---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScoreCount---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookWordCount---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookWordCount---BookScoreCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScore---BookScoreCount---Mode---Median---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 103预测错误数目为: 51子树数目为: 120包外错误率为: 0.331169
+BookWordCount---BookScore---BookScoreCount---AddListCount---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookWordCount---BookScoreCount---AddListCount---Median---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScoreCount---Mode---Median---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookScore---AddListCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookWordCount---BookScoreCount---AddListCount---Mode---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScoreCount---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScore---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookScoreCount---AddListCount---Mode---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---BookScore---BookScoreCount---AddListCount---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScore---AddListCount---Mode---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 89预测错误数目为: 65子树数目为: 120包外错误率为: 0.422078
+BookScore---Mode---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 84预测错误数目为: 70子树数目为: 120包外错误率为: 0.454545
+BookScore---BookScoreCount---Median---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 89预测错误数目为: 65子树数目为: 120包外错误率为: 0.422078
+BookWordCount---BookScoreCount---AddListCount---Mode---Median---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScore---BookScoreCount---AddListCount---Mode---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookScoreCount---AddListCount---Median---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---BookScoreCount---AddListCount---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---AddListCount---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookScore---BookScoreCount---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookScoreCount---AddListCount---Mode---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---Mode---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 86预测错误数目为: 68子树数目为: 120包外错误率为: 0.441558
+BookWordCount---BookScore---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookScoreCount---AddListCount---Mode---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookScore---BookScoreCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookWordCount---BookScore---AddListCount---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---BookScoreCount---AddListCount---Mode---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookWordCount---BookScoreCount---Mode---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookScore---BookScoreCount---Mode---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookWordCount---BookScoreCount---AddListCount---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookWordCount---BookScore---BookScoreCount---Mode---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScore---BookScoreCount---AddListCount---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScore---AddListCount---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---BookScoreCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookScoreCount---AddListCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 102预测错误数目为: 52子树数目为: 120包外错误率为: 0.337662
+BookWordCount---AddListCount---Mode---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 89预测错误数目为: 65子树数目为: 120包外错误率为: 0.422078
+BookScore---BookScoreCount---AddListCount---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---BookScore---AddListCount---Mode---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScore---BookScoreCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 101预测错误数目为: 53子树数目为: 120包外错误率为: 0.344156
+BookWordCount---BookScore---BookScoreCount---Mode---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookWordCount---BookScore---AddListCount---Mode---Median---Quartile---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScoreCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookScore---BookScoreCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookWordCount---BookScore---BookScoreCount---AddListCount---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScoreCount---AddListCount---Mode---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookScore---AddListCount---Median---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScoreCount---AddListCount---Mode---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScoreCount---AddListCount---Mode---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScoreCount---AddListCount---Median---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookWordCount---BookScore---BookScoreCount---AddListCount---Mode---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookWordCount---BookScoreCount---AddListCount---Median---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookWordCount---BookScore---Mode---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---BookScore---BookScoreCount---AddListCount---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---AddListCount---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookScore---BookScoreCount---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---BookScore---BookScoreCount---AddListCount---Mode---Median---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---BookScoreCount---Mode---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookWordCount---BookScore---BookScoreCount---AddListCount---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookScore---BookScoreCount---AddListCount---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookWordCount---BookScore---BookScoreCount---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---AddListCount---Mode---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---AddListCount---Median---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookWordCount---AddListCount---Median---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 102预测错误数目为: 52子树数目为: 120包外错误率为: 0.337662
+BookScore---Mode---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 82预测错误数目为: 72子树数目为: 120包外错误率为: 0.467532
+BookWordCount---BookScoreCount---AddListCount---Median---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScore---AddListCount---Mode---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 91预测错误数目为: 63子树数目为: 120包外错误率为: 0.409091
+BookWordCount---Mode---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 84预测错误数目为: 70子树数目为: 120包外错误率为: 0.454545
+BookWordCount---BookScoreCount---AddListCount---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 94预测错误数目为: 60子树数目为: 120包外错误率为: 0.38961
+BookWordCount---BookScore---BookScoreCount---Mode---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookWordCount---BookScore---AddListCount---Mode---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 90预测错误数目为: 64子树数目为: 120包外错误率为: 0.415584
+BookWordCount---AddListCount---Median---StandardDeviation---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookScore---BookScoreCount---Mode---Median---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 99预测错误数目为: 55子树数目为: 120包外错误率为: 0.357143
+BookScore---Mode---Median---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 81预测错误数目为: 73子树数目为: 120包外错误率为: 0.474026
+BookScoreCount---Mode---StandardDeviation---Quartile---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 94预测错误数目为: 60子树数目为: 120包外错误率为: 0.38961
+BookScore---BookScoreCount---AddListCount---Mode---Median---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---Mode---Median---StandardDeviation---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---BookScoreCount---AddListCount---Mode---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---AddListCount---Median---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 95预测错误数目为: 59子树数目为: 120包外错误率为: 0.383117
+BookWordCount---BookScore---BookScoreCount---Mode---Median---Quartile---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookScore---BookScoreCount---AddListCount---Median---DispersionCoefficient---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 88预测错误数目为: 66子树数目为: 120包外错误率为: 0.428571
+BookScore---AddListCount---Mode---Median---StandardDeviation---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 94预测错误数目为: 60子树数目为: 120包外错误率为: 0.38961
+BookWordCount---BookScore---AddListCount---Mode---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---BookScoreCount---AddListCount---Mode---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---BookScoreCount---AddListCount---Mode---Median---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 97预测错误数目为: 57子树数目为: 120包外错误率为: 0.37013
+BookScoreCount---AddListCount---Mode---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookWordCount---BookScore---BookScoreCount---AddListCount---Mode---Quartile---Class---
+样本总数目为: 154预测正确数目为: 92预测错误数目为: 62子树数目为: 120包外错误率为: 0.402597
+BookWordCount---BookScore---AddListCount---Median---StandardDeviation---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 96预测错误数目为: 58子树数目为: 120包外错误率为: 0.376623
+BookScore---BookScoreCount---Mode---StandardDeviation---Quartile---DispersionCoefficient---Class---
+样本总数目为: 154预测正确数目为: 93预测错误数目为: 61子树数目为: 120包外错误率为: 0.396104
+BookWordCount---BookScore---BookScoreCount---AddListCount---Quartile---Kurtosis---Class---
+样本总数目为: 154预测正确数目为: 98预测错误数目为: 56子树数目为: 120包外错误率为: 0.363636
+BookScore---BookScoreCount---AddListCount---Mode---StandardDeviation---Quartile---Class---
+样本总数目为: 154预测正确数目为: 100预测错误数目为: 54子树数目为: 120包外错误率为: 0.350649
+BookWordCount---
+BookScoreCount---
+AddListCount---
+Median---
+StandardDeviation---
+Kurtosis---
+Class---
+

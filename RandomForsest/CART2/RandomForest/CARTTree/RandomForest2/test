@@ -1,0 +1,87 @@
+书单管理功能测试，主要测试是否可以按照用户要求进行加入书单，删除书本，新建书单，修改书单，删除书单等功能。以及对于一些异常事件的处理，比如，新建书单未输入书单名，书单名输入字数超过限制等。\newline
+1、新建书单功能测试结果如表\ref{table:newbookshelftest}所示:
+\begin{table}[H]  % [h]表格在文中放置的位置
+	\centering  %作用是使表格居中
+	\caption{新建书单功能测试用例} %表格标题
+	\label{table:newbookshelftest} %表格标签 方便引用
+	\begin{tabular}{|p{8em}|p{8em}|p{9em}|p{11em}|}   % c 表示表格中的文字居中
+		\hline
+		{用例编号}&\multicolumn{3}{l|}{ UT-02}\cr
+		\hline
+		功能描述 & \multicolumn{3}{l|}{ 新建书单} \cr \hline
+		用例目的 & \multicolumn{3}{l|}{ 测试是否能够正确新建书单} \cr \hline
+		前置条件 & \multicolumn{3}{l|}{ 用户登录系统，进入新建书单界面} \cr \hline
+		输入动作 & 数据 & 期望的输出 & 实际输出 \cr\hline
+		输入正确的书单名 & 粮草集 & 可以接受 & 正常 \cr\hline
+		输入书单名为空 &   & 系统提示输入书单名 & 提示：书单名不能为空 \cr\hline
+		输入书单名超过20个汉字& 输入超过20个汉字的书单名& 系统提示书单名太长 & 提示：书单名不能超过20个字 \cr\hline
+		选择正确标签& 幕后黑手& 可以接受 & 正常 \cr\hline
+		不选择标签 &  & 系统提示选择标签 & 提示：请选择书单标签 \cr\hline
+		在选择标签下划栏目选择新建标签输入新标签名 & 灵气复苏 & 可以接受 & 正常 \cr\hline
+		输入正确的书单介绍 & 输入书单介绍 & 可以接受 & 正常 \cr\hline
+		输入的书单介绍为空 &   & 系统提示输入书单介绍 & 提示：书单介绍不能为空 \cr\hline
+		输入书单介绍超过200个汉字& 输入超过200汉字的书单介绍& 系统提示书单介绍太长 & 提示：书单介绍不能超过200个字 \cr\hline
+	\end{tabular}
+\end{table}
+2、编辑书单功能测试结果如表\ref{table:changebookshelftest}所示：
+\begin{table}[H]  % [h]表格在文中放置的位置
+	\centering  %作用是使表格居中
+	\caption{编辑书单功能测试用例} %表格标题
+	\label{table:changebookshelftest} %表格标签 方便引用
+	\begin{tabular}{|p{8em}|p{8em}|p{9em}|p{11em}|}   % c 表示表格中的文字居中
+		\hline
+		{用例编号}&\multicolumn{3}{l|}{ UT-03}\cr
+		\hline
+		功能描述 & \multicolumn{3}{l|}{ 编辑书单信息} \cr \hline
+		用例目的 & \multicolumn{3}{l|}{ 测试是否能够正确编辑书单信息} \cr \hline
+		前置条件 & \multicolumn{3}{l|}{ 用户登录系统，进入修改书单界面} \cr \hline
+		输入动作 & 数据 & 期望的输出 & 实际输出 \cr\hline
+		在下划列表选择正确的书单名 & 粮草集 & 可以接受 & 正常 \cr\hline
+		不选择书单名 &   & 系统提示选择书单名 & 提示：请选择要修改的书单 \cr\hline
+		输入新的正确的书单名 & 粮草集 & 可以接受 & 正常 \cr\hline
+		输入新的书单名为空 &   & 系统提示输入书单名 & 提示：书单名不能为空 \cr\hline
+		输入新的书单名超过20个汉字& 输入超过20个汉字的书单名& 系统提示书单名太长 & 提示：书单名不能超过20个字 \cr\hline
+		选择正确标签& 幕后黑手& 可以接受 & 正常 \cr\hline
+		不选择标签 &  & 系统提示选择标签 & 提示：请选择书单标签 \cr\hline
+		在选择标签下划栏目选择新建标签输入新标签名 & 灵气复苏 & 可以接受 & 正常 \cr\hline
+		输入正确的书单介绍 & 输入书单介绍 & 可以接受 & 正常 \cr\hline
+		输入的书单介绍为空 &   & 系统提示输入书单介绍 & 提示：书单介绍不能为空 \cr\hline
+		输入书单介绍超过200个汉字& 输入超过200汉字的书单介绍& 系统提示书单介绍太长 & 提示：书单介绍不能超过200个字 \cr\hline
+	\end{tabular}
+\end{table}
+3、删除书单功能测试结果如表\ref{table:debookshelftest}所示:
+\begin{table}[H]  % [h]表格在文中放置的位置
+	\centering  %作用是使表格居中
+	\caption{删除书单功能测试用例} %表格标题
+	\label{table:debookshelftest} %表格标签 方便引用
+	\begin{tabular}{|p{8em}|p{8em}|p{9em}|p{11em}|}   % c 表示表格中的文字居中
+		\hline
+		{用例编号}&\multicolumn{3}{l|}{ UT-04}\cr
+		\hline
+		功能描述 & \multicolumn{3}{l|}{ 删除书单信息} \cr \hline
+		用例目的 & \multicolumn{3}{l|}{ 测试是否能够正确删除书单信息} \cr \hline
+		前置条件 & \multicolumn{3}{l|}{ 用户登录系统，进入删除书单界面} \cr \hline
+		输入动作 & 数据 & 期望的输出 & 实际输出 \cr\hline
+		在下划列表选择正确的书单名 & 粮草集 & 删除成功 & 正常 \cr\hline
+		不选择书单名 &   & 系统提示选择书单名 & 提示：请选择要删除的书单 \cr\hline
+	\end{tabular}
+\end{table}
+4、书单书本管理测试结果如表\ref{table:bookbookshelftest}所示:
+\begin{table}[H]  % [h]表格在文中放置的位置
+	\centering  %作用是使表格居中
+	\caption{书单书本管理测试用例} %表格标题
+	\label{table:bookbookshelftest} %表格标签 方便引用
+	\begin{tabular}{|p{8em}|p{8em}|p{9em}|p{11em}|}   % c 表示表格中的文字居中
+		\hline
+		{用例编号}&\multicolumn{3}{l|}{ UT-05}\cr
+		\hline
+		功能描述 & \multicolumn{3}{l|}{ 书单内书本管理} \cr \hline
+		用例目的 & \multicolumn{3}{l|}{ 测试是否能正确管理书单书本} \cr \hline
+		前置条件 & \multicolumn{3}{l|}{ 用户登录系统，进入任一书单界面} \cr \hline
+		输入动作 & 数据 & 期望的输出 & 实际输出 \cr\hline
+		在书本侧栏选择删除书本 &  & 删除成功 & 正常 \cr\hline
+		在书本侧栏选择更换书单中选择新的书单 & 在下划栏中选择毒草书单  & 更换书单成功 & 正常 \cr\hline
+		在书本信息界面选择加入书单 & 在下划栏中选择粮草集 & 加入书单成功 & 正常 \cr\hline
+		用户没有书单，在书本信息界面选择加入书单 & 在下划栏中选择新建书单 & 转入新建书单界面 & 正常 \cr\hline
+	\end{tabular}
+\end{table}

@@ -1,0 +1,164 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="AddListCount <= 121.5\nGini = 0.499055\nNum_Sample = 92\nValue = [48, 44]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="AddListCount <= 193.5\nGini = 0.297521\nNum_Sample = 22\nValue = [4, 18]"] ;
+1 -> 3
+1 -> 4
+2 [label="AddListCount <= 2.5\nGini = 0.466939\nNum_Sample = 70\nValue = [44, 26]"] ;
+2 -> 5
+2 -> 6
+3 [label="AddListCount <= 228.5\nGini = 0.408163\nNum_Sample = 14\nValue = [4, 10]"] ;
+3 -> 7
+3 -> 8
+4 [label="good\nGini = 0\nNum_Sample = 8\nValue = [0, 8]"] ;
+5 [label="AddListCount <= 110.5\nGini = 0.48\nNum_Sample = 65\nValue = [39, 26]"] ;
+5 -> 9
+5 -> 10
+6 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+7 [label="AddListCount <= 291\nGini = 0.297521\nNum_Sample = 11\nValue = [2, 9]"] ;
+7 -> 11
+7 -> 12
+8 [label="Median <= 7\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+8 -> 13
+8 -> 14
+9 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+10 [label="AddListCount <= 107\nGini = 0.489116\nNum_Sample = 61\nValue = [35, 26]"] ;
+10 -> 15
+10 -> 16
+11 [label="AddListCount <= 298\nGini = 0.408163\nNum_Sample = 7\nValue = [2, 5]"] ;
+11 -> 17
+11 -> 18
+12 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+13 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+14 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+15 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+16 [label="AddListCount <= 59\nGini = 0.48262\nNum_Sample = 59\nValue = [35, 24]"] ;
+16 -> 19
+16 -> 20
+17 [label="AddListCount <= 405.5\nGini = 0.277778\nNum_Sample = 6\nValue = [1, 5]"] ;
+17 -> 21
+17 -> 22
+18 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+19 [label="AddListCount <= 96\nGini = 0.336735\nNum_Sample = 14\nValue = [11, 3]"] ;
+19 -> 23
+19 -> 24
+20 [label="AddListCount <= 26.5\nGini = 0.497778\nNum_Sample = 45\nValue = [24, 21]"] ;
+20 -> 25
+20 -> 26
+21 [label="AddListCount <= 502\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+21 -> 27
+21 -> 28
+22 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+23 [label="AddListCount <= 102.5\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+23 -> 29
+23 -> 30
+24 [label="bad\nGini = 0\nNum_Sample = 9\nValue = [9, 0]"] ;
+25 [label="Median <= 3\nGini = 0.48\nNum_Sample = 20\nValue = [8, 12]"] ;
+25 -> 31
+25 -> 32
+26 [label="AddListCount <= 21.5\nGini = 0.4608\nNum_Sample = 25\nValue = [16, 9]"] ;
+26 -> 33
+26 -> 34
+27 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+28 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+29 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+30 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+31 [label="Median <= 5\nGini = 0.465374\nNum_Sample = 19\nValue = [7, 12]"] ;
+31 -> 35
+31 -> 36
+32 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+33 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+34 [label="AddListCount <= 20.5\nGini = 0.495\nNum_Sample = 20\nValue = [11, 9]"] ;
+34 -> 37
+34 -> 38
+35 [label="AddListCount <= 31.5\nGini = 0.475309\nNum_Sample = 18\nValue = [7, 11]"] ;
+35 -> 39
+35 -> 40
+36 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+37 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+38 [label="AddListCount <= 15.5\nGini = 0.487535\nNum_Sample = 19\nValue = [11, 8]"] ;
+38 -> 41
+38 -> 42
+39 [label="AddListCount <= 43.5\nGini = 0.444444\nNum_Sample = 15\nValue = [5, 10]"] ;
+39 -> 43
+39 -> 44
+40 [label="Median <= 7\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+40 -> 45
+40 -> 46
+41 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+42 [label="AddListCount <= 13.5\nGini = 0.49827\nNum_Sample = 17\nValue = [9, 8]"] ;
+42 -> 47
+42 -> 48
+43 [label="AddListCount <= 46.5\nGini = 0.493827\nNum_Sample = 9\nValue = [4, 5]"] ;
+43 -> 49
+43 -> 50
+44 [label="AddListCount <= 36\nGini = 0.277778\nNum_Sample = 6\nValue = [1, 5]"] ;
+44 -> 51
+44 -> 52
+45 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+46 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+47 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+48 [label="AddListCount <= 8.5\nGini = 0.492188\nNum_Sample = 16\nValue = [9, 7]"] ;
+48 -> 53
+48 -> 54
+49 [label="AddListCount <= 55\nGini = 0.46875\nNum_Sample = 8\nValue = [3, 5]"] ;
+49 -> 55
+49 -> 56
+50 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+51 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+52 [label="AddListCount <= 33.5\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+52 -> 57
+52 -> 58
+53 [label="AddListCount <= 11.5\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+53 -> 59
+53 -> 60
+54 [label="Median <= 5\nGini = 0.5\nNum_Sample = 12\nValue = [6, 6]"] ;
+54 -> 61
+54 -> 62
+55 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+56 [label="AddListCount <= 51.5\nGini = 0.489796\nNum_Sample = 7\nValue = [3, 4]"] ;
+56 -> 63
+56 -> 64
+57 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+58 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+59 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+60 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+61 [label="AddListCount <= 4.5\nGini = 0.493827\nNum_Sample = 9\nValue = [4, 5]"] ;
+61 -> 65
+61 -> 66
+62 [label="AddListCount <= 4\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+62 -> 67
+62 -> 68
+63 [label="Median <= 7\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+63 -> 69
+63 -> 70
+64 [label="Median <= 7\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+64 -> 71
+64 -> 72
+65 [label="AddListCount <= 6.5\nGini = 0.489796\nNum_Sample = 7\nValue = [4, 3]"] ;
+65 -> 73
+65 -> 74
+66 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+67 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+68 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+69 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+70 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+71 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+72 [label="AddListCount <= 49.5\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+72 -> 75
+72 -> 76
+73 [label="Median <= 7\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+73 -> 77
+73 -> 78
+74 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+75 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+76 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+77 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+78 [label="AddListCount <= 7.5\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+78 -> 79
+78 -> 80
+79 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+80 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+}

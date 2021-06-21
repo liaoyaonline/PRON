@@ -1,0 +1,475 @@
+开始读取属性: 
+读取样本数目: 
+开始生成决策树
+Num_AllSample: 150
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  0.8
+当前样本数目:  150
+当前节点属性数目: 4
+当前节点Gini值： 0.666667
+setosa： 50  versicolor： 50  virginica： 50  
+Petal.Length： 0.333333  Petal.Width： 0.333333  Sepal.Length： 0.438906  Sepal.Width： 0.539743  
+Att_selected: Petal.Length    Rate_Sample: 1    EffectGini_tmp: 0.333333   GiniImportance_tmp: 0.333333
+Att_selected: Petal.Width    Rate_Sample: 1    EffectGini_tmp: 0.333333   GiniImportance_tmp: 0.333333
+Att_selected: Sepal.Length    Rate_Sample: 1    EffectGini_tmp: 0.22776   GiniImportance_tmp: 0.22776
+Att_selected: Sepal.Width    Rate_Sample: 1    EffectGini_tmp: 0.126923   GiniImportance_tmp: 0.126923
+Petal.Length： 0.333333  Petal.Width： 0.333333  Sepal.Length： 0.22776  Sepal.Width： 0.126923  
+Att_CurrentNode : >0.8->Att_ChildNode: Petal.Width
+该子节点样本数目: 100
+Att_CurrentNode : <0.8->Att_ChildNode: setosa
+该子节点样本数目: 50
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.75
+当前样本数目:  100
+当前节点属性数目: 4
+当前节点Gini值： 0.5
+versicolor： 50  virginica： 50  
+Petal.Length： 0.126465  Petal.Width： 0.110306  Sepal.Length： 0.393131  Sepal.Width： 0.464444  
+Att_selected: Petal.Length    Rate_Sample: 0.666667    EffectGini_tmp: 0.373535   GiniImportance_tmp: 0.249024
+Att_selected: Petal.Width    Rate_Sample: 0.666667    EffectGini_tmp: 0.389694   GiniImportance_tmp: 0.259796
+Att_selected: Sepal.Length    Rate_Sample: 0.666667    EffectGini_tmp: 0.106869   GiniImportance_tmp: 0.0712458
+Att_selected: Sepal.Width    Rate_Sample: 0.666667    EffectGini_tmp: 0.0355556   GiniImportance_tmp: 0.0237037
+Petal.Length： 0.582357  Petal.Width： 0.593129  Sepal.Length： 0.299006  Sepal.Width： 0.150627  
+Att_CurrentNode : >1.75->Att_ChildNode: Petal.Length
+该子节点样本数目: 46
+Att_CurrentNode : <1.75->Att_ChildNode: Petal.Length
+该子节点样本数目: 54
+
+
+当前节点属性:  setosa
+当前节点最佳划分选择值:  0
+当前样本数目:  50
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 50  
+
+Petal.Length： 0.582357  Petal.Width： 0.593129  Sepal.Length： 0.299006  Sepal.Width： 0.150627  
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  4.85
+当前样本数目:  46
+当前节点属性数目: 4
+当前节点Gini值： 0.0425331
+versicolor： 1  virginica： 45  
+Petal.Length： 0.0289855  Petal.Width： 0.0398551  Sepal.Length： 0.0372671  Sepal.Width： 0.0403727  
+Att_selected: Petal.Length    Rate_Sample: 0.306667    EffectGini_tmp: 0.0135476   GiniImportance_tmp: 0.00415459
+Att_selected: Petal.Width    Rate_Sample: 0.306667    EffectGini_tmp: 0.00267801   GiniImportance_tmp: 0.000821256
+Att_selected: Sepal.Length    Rate_Sample: 0.306667    EffectGini_tmp: 0.005266   GiniImportance_tmp: 0.00161491
+Att_selected: Sepal.Width    Rate_Sample: 0.306667    EffectGini_tmp: 0.00216041   GiniImportance_tmp: 0.000662526
+Petal.Length： 0.586511  Petal.Width： 0.593951  Sepal.Length： 0.300621  Sepal.Width： 0.15129  
+Att_CurrentNode : >4.85->Att_ChildNode: virginica
+该子节点样本数目: 43
+Att_CurrentNode : <4.85->Att_ChildNode: Sepal.Width
+该子节点样本数目: 3
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  4.95
+当前样本数目:  54
+当前节点属性数目: 4
+当前节点Gini值： 0.168038
+versicolor： 49  virginica： 5  
+Petal.Length： 0.0856481  Petal.Width： 0.149573  Sepal.Length： 0.136967  Sepal.Width： 0.163409  
+Att_selected: Petal.Length    Rate_Sample: 0.36    EffectGini_tmp: 0.0823903   GiniImportance_tmp: 0.0296605
+Att_selected: Petal.Width    Rate_Sample: 0.36    EffectGini_tmp: 0.0184658   GiniImportance_tmp: 0.00664767
+Att_selected: Sepal.Length    Rate_Sample: 0.36    EffectGini_tmp: 0.0310713   GiniImportance_tmp: 0.0111857
+Att_selected: Sepal.Width    Rate_Sample: 0.36    EffectGini_tmp: 0.00462989   GiniImportance_tmp: 0.00166676
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.311807  Sepal.Width： 0.152956  
+Att_CurrentNode : >4.95->Att_ChildNode: Petal.Width
+该子节点样本数目: 6
+Att_CurrentNode : <4.95->Att_ChildNode: Petal.Width
+该子节点样本数目: 48
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  43
+当前节点属性数目: 4
+当前节点Gini值： 0
+virginica： 43  
+
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.311807  Sepal.Width： 0.152956  
+
+
+当前节点属性:  Sepal.Width
+当前节点最佳划分选择值:  3.1
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+versicolor： 1  virginica： 2  
+Petal.Length： 0.444444  Petal.Width： 0.444444  Sepal.Length： 0  Sepal.Width： 0  
+Att_selected: Petal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0   GiniImportance_tmp: 0
+Att_selected: Petal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0   GiniImportance_tmp: 0
+Att_selected: Sepal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.320696  Sepal.Width： 0.161845  
+Att_CurrentNode : >3.1->Att_ChildNode: versicolor
+该子节点样本数目: 1
+Att_CurrentNode : <3.1->Att_ChildNode: virginica
+该子节点样本数目: 2
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.55
+当前样本数目:  6
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+versicolor： 2  virginica： 4  
+Petal.Length： 0.333333  Petal.Width： 0.222222  Sepal.Length： 0.4  Sepal.Width： 0.333333  
+Att_selected: Petal.Length    Rate_Sample: 0.04    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00444444
+Att_selected: Petal.Width    Rate_Sample: 0.04    EffectGini_tmp: 0.222222   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Length    Rate_Sample: 0.04    EffectGini_tmp: 0.0444444   GiniImportance_tmp: 0.00177778
+Att_selected: Sepal.Width    Rate_Sample: 0.04    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00444444
+Petal.Length： 0.620616  Petal.Width： 0.609487  Sepal.Length： 0.322473  Sepal.Width： 0.16629  
+Att_CurrentNode : >1.55->Att_ChildNode: Petal.Length
+该子节点样本数目: 3
+Att_CurrentNode : <1.55->Att_ChildNode: virginica
+该子节点样本数目: 3
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.65
+当前样本数目:  48
+当前节点属性数目: 4
+当前节点Gini值： 0.0407986
+versicolor： 47  virginica： 1  
+Petal.Length： 0.0394737  Petal.Width： 0  Sepal.Length： 0.0208333  Sepal.Width： 0.0386905  
+Att_selected: Petal.Length    Rate_Sample: 0.32    EffectGini_tmp: 0.00132493   GiniImportance_tmp: 0.000423977
+Att_selected: Petal.Width    Rate_Sample: 0.32    EffectGini_tmp: 0.0407986   GiniImportance_tmp: 0.0130556
+Att_selected: Sepal.Length    Rate_Sample: 0.32    EffectGini_tmp: 0.0199653   GiniImportance_tmp: 0.00638889
+Att_selected: Sepal.Width    Rate_Sample: 0.32    EffectGini_tmp: 0.00210813   GiniImportance_tmp: 0.000674603
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+Att_CurrentNode : >1.65->Att_ChildNode: virginica
+该子节点样本数目: 1
+Att_CurrentNode : <1.65->Att_ChildNode: versicolor
+该子节点样本数目: 47
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+versicolor： 1  
+
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  2
+当前节点属性数目: 4
+当前节点Gini值： 0
+virginica： 2  
+
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  5.45
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+versicolor： 2  virginica： 1  
+Petal.Length： 0  Petal.Width： 0.333333  Sepal.Length： 0  Sepal.Width： 0.333333  
+Att_selected: Petal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Petal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00222222
+Att_selected: Sepal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00222222
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+Att_CurrentNode : >5.45->Att_ChildNode: virginica
+该子节点样本数目: 1
+Att_CurrentNode : <5.45->Att_ChildNode: versicolor
+该子节点样本数目: 2
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0
+virginica： 3  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+virginica： 1  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  47
+当前节点属性数目: 4
+当前节点Gini值： 0
+versicolor： 47  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+virginica： 1  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  2
+当前节点属性数目: 4
+当前节点Gini值： 0
+versicolor： 2  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+Num_AllSample: 150
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  0.8
+当前样本数目:  150
+当前节点属性数目: 4
+当前节点Gini值： 0.666667
+setosa： 50  versicolor： 50  virginica： 50  
+Petal.Length： 0.333333  Petal.Width： 0.333333  Sepal.Length： 0.438906  Sepal.Width： 0.539743  
+Att_selected: Petal.Length    Rate_Sample: 1    EffectGini_tmp: 0.333333   GiniImportance_tmp: 0.333333
+Att_selected: Petal.Width    Rate_Sample: 1    EffectGini_tmp: 0.333333   GiniImportance_tmp: 0.333333
+Att_selected: Sepal.Length    Rate_Sample: 1    EffectGini_tmp: 0.22776   GiniImportance_tmp: 0.22776
+Att_selected: Sepal.Width    Rate_Sample: 1    EffectGini_tmp: 0.126923   GiniImportance_tmp: 0.126923
+Petal.Length： 0.333333  Petal.Width： 0.333333  Sepal.Length： 0.22776  Sepal.Width： 0.126923  
+Att_CurrentNode : >0.8->Att_ChildNode: Petal.Width
+该子节点样本数目: 100
+Att_CurrentNode : <0.8->Att_ChildNode: setosa
+该子节点样本数目: 50
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.75
+当前样本数目:  100
+当前节点属性数目: 4
+当前节点Gini值： 0.5
+setosa： 0  versicolor： 50  virginica： 50  
+Petal.Length： 0.126465  Petal.Width： 0.110306  Sepal.Length： 0.393131  Sepal.Width： 0.464444  
+Att_selected: Petal.Length    Rate_Sample: 0.666667    EffectGini_tmp: 0.373535   GiniImportance_tmp: 0.249024
+Att_selected: Petal.Width    Rate_Sample: 0.666667    EffectGini_tmp: 0.389694   GiniImportance_tmp: 0.259796
+Att_selected: Sepal.Length    Rate_Sample: 0.666667    EffectGini_tmp: 0.106869   GiniImportance_tmp: 0.0712458
+Att_selected: Sepal.Width    Rate_Sample: 0.666667    EffectGini_tmp: 0.0355556   GiniImportance_tmp: 0.0237037
+Petal.Length： 0.582357  Petal.Width： 0.593129  Sepal.Length： 0.299006  Sepal.Width： 0.150627  
+Att_CurrentNode : >1.75->Att_ChildNode: Petal.Length
+该子节点样本数目: 46
+Att_CurrentNode : <1.75->Att_ChildNode: Petal.Length
+该子节点样本数目: 54
+
+
+当前节点属性:  setosa
+当前节点最佳划分选择值:  0
+当前样本数目:  50
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 50  versicolor： 0  virginica： 0  
+
+Petal.Length： 0.582357  Petal.Width： 0.593129  Sepal.Length： 0.299006  Sepal.Width： 0.150627  
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  4.85
+当前样本数目:  46
+当前节点属性数目: 4
+当前节点Gini值： 0.0425331
+setosa： 0  versicolor： 1  virginica： 45  
+Petal.Length： 0.0289855  Petal.Width： 0.0398551  Sepal.Length： 0.0372671  Sepal.Width： 0.0403727  
+Att_selected: Petal.Length    Rate_Sample: 0.306667    EffectGini_tmp: 0.0135476   GiniImportance_tmp: 0.00415459
+Att_selected: Petal.Width    Rate_Sample: 0.306667    EffectGini_tmp: 0.00267801   GiniImportance_tmp: 0.000821256
+Att_selected: Sepal.Length    Rate_Sample: 0.306667    EffectGini_tmp: 0.005266   GiniImportance_tmp: 0.00161491
+Att_selected: Sepal.Width    Rate_Sample: 0.306667    EffectGini_tmp: 0.00216041   GiniImportance_tmp: 0.000662526
+Petal.Length： 0.586511  Petal.Width： 0.593951  Sepal.Length： 0.300621  Sepal.Width： 0.15129  
+Att_CurrentNode : >4.85->Att_ChildNode: virginica
+该子节点样本数目: 43
+Att_CurrentNode : <4.85->Att_ChildNode: Sepal.Width
+该子节点样本数目: 3
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  4.95
+当前样本数目:  54
+当前节点属性数目: 4
+当前节点Gini值： 0.168038
+setosa： 0  versicolor： 49  virginica： 5  
+Petal.Length： 0.0856481  Petal.Width： 0.149573  Sepal.Length： 0.136967  Sepal.Width： 0.163409  
+Att_selected: Petal.Length    Rate_Sample: 0.36    EffectGini_tmp: 0.0823903   GiniImportance_tmp: 0.0296605
+Att_selected: Petal.Width    Rate_Sample: 0.36    EffectGini_tmp: 0.0184658   GiniImportance_tmp: 0.00664767
+Att_selected: Sepal.Length    Rate_Sample: 0.36    EffectGini_tmp: 0.0310713   GiniImportance_tmp: 0.0111857
+Att_selected: Sepal.Width    Rate_Sample: 0.36    EffectGini_tmp: 0.00462989   GiniImportance_tmp: 0.00166676
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.311807  Sepal.Width： 0.152956  
+Att_CurrentNode : >4.95->Att_ChildNode: Petal.Width
+该子节点样本数目: 6
+Att_CurrentNode : <4.95->Att_ChildNode: Petal.Width
+该子节点样本数目: 48
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  43
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 0  virginica： 43  
+
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.311807  Sepal.Width： 0.152956  
+
+
+当前节点属性:  Sepal.Width
+当前节点最佳划分选择值:  3.1
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+setosa： 0  versicolor： 1  virginica： 2  
+Petal.Length： 0.444444  Petal.Width： 0.444444  Sepal.Length： 0  Sepal.Width： 0  
+Att_selected: Petal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0   GiniImportance_tmp: 0
+Att_selected: Petal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0   GiniImportance_tmp: 0
+Att_selected: Sepal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Petal.Length： 0.616172  Petal.Width： 0.600598  Sepal.Length： 0.320696  Sepal.Width： 0.161845  
+Att_CurrentNode : >3.1->Att_ChildNode: versicolor
+该子节点样本数目: 1
+Att_CurrentNode : <3.1->Att_ChildNode: virginica
+该子节点样本数目: 2
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.55
+当前样本数目:  6
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+setosa： 0  versicolor： 2  virginica： 4  
+Petal.Length： 0.333333  Petal.Width： 0.222222  Sepal.Length： 0.4  Sepal.Width： 0.333333  
+Att_selected: Petal.Length    Rate_Sample: 0.04    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00444444
+Att_selected: Petal.Width    Rate_Sample: 0.04    EffectGini_tmp: 0.222222   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Length    Rate_Sample: 0.04    EffectGini_tmp: 0.0444444   GiniImportance_tmp: 0.00177778
+Att_selected: Sepal.Width    Rate_Sample: 0.04    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00444444
+Petal.Length： 0.620616  Petal.Width： 0.609487  Sepal.Length： 0.322473  Sepal.Width： 0.16629  
+Att_CurrentNode : >1.55->Att_ChildNode: Petal.Length
+该子节点样本数目: 3
+Att_CurrentNode : <1.55->Att_ChildNode: virginica
+该子节点样本数目: 3
+
+
+当前节点属性:  Petal.Width
+当前节点最佳划分选择值:  1.65
+当前样本数目:  48
+当前节点属性数目: 4
+当前节点Gini值： 0.0407986
+setosa： 0  versicolor： 47  virginica： 1  
+Petal.Length： 0.0394737  Petal.Width： 0  Sepal.Length： 0.0208333  Sepal.Width： 0.0386905  
+Att_selected: Petal.Length    Rate_Sample: 0.32    EffectGini_tmp: 0.00132493   GiniImportance_tmp: 0.000423977
+Att_selected: Petal.Width    Rate_Sample: 0.32    EffectGini_tmp: 0.0407986   GiniImportance_tmp: 0.0130556
+Att_selected: Sepal.Length    Rate_Sample: 0.32    EffectGini_tmp: 0.0199653   GiniImportance_tmp: 0.00638889
+Att_selected: Sepal.Width    Rate_Sample: 0.32    EffectGini_tmp: 0.00210813   GiniImportance_tmp: 0.000674603
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+Att_CurrentNode : >1.65->Att_ChildNode: virginica
+该子节点样本数目: 1
+Att_CurrentNode : <1.65->Att_ChildNode: versicolor
+该子节点样本数目: 47
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 1  virginica： 0  
+
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  2
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 0  virginica： 2  
+
+Petal.Length： 0.62104  Petal.Width： 0.622543  Sepal.Length： 0.328862  Sepal.Width： 0.166964  
+
+
+当前节点属性:  Petal.Length
+当前节点最佳划分选择值:  5.45
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0.444444
+setosa： 0  versicolor： 2  virginica： 1  
+Petal.Length： 0  Petal.Width： 0.333333  Sepal.Length： 0  Sepal.Width： 0.333333  
+Att_selected: Petal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Petal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00222222
+Att_selected: Sepal.Length    Rate_Sample: 0.02    EffectGini_tmp: 0.444444   GiniImportance_tmp: 0.00888889
+Att_selected: Sepal.Width    Rate_Sample: 0.02    EffectGini_tmp: 0.111111   GiniImportance_tmp: 0.00222222
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+Att_CurrentNode : >5.45->Att_ChildNode: virginica
+该子节点样本数目: 1
+Att_CurrentNode : <5.45->Att_ChildNode: versicolor
+该子节点样本数目: 2
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  3
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 0  virginica： 3  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 0  virginica： 1  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  47
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 47  virginica： 0  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  virginica
+当前节点最佳划分选择值:  0
+当前样本数目:  1
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 0  virginica： 1  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+当前节点属性:  versicolor
+当前节点最佳划分选择值:  0
+当前样本数目:  2
+当前节点属性数目: 4
+当前节点Gini值： 0
+setosa： 0  versicolor： 2  virginica： 0  
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  
+
+
+Petal.Length： 0.629929  Petal.Width： 0.624765  Sepal.Length： 0.337751  Sepal.Width： 0.169187  

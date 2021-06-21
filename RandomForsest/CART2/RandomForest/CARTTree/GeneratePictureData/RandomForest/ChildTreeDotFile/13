@@ -1,0 +1,192 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Mode <= 7\nGini = 0.497167\nNum_Sample = 93\nValue = [50, 43]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="DispersionCoefficient <= 0.445\nGini = 0.474174\nNum_Sample = 44\nValue = [17, 27]"] ;
+1 -> 3
+1 -> 4
+2 [label="DispersionCoefficient <= 0.485\nGini = 0.439817\nNum_Sample = 49\nValue = [33, 16]"] ;
+2 -> 5
+2 -> 6
+3 [label="DispersionCoefficient <= 0.485\nGini = 0.408163\nNum_Sample = 7\nValue = [5, 2]"] ;
+3 -> 7
+3 -> 8
+4 [label="DispersionCoefficient <= 0.325\nGini = 0.438276\nNum_Sample = 37\nValue = [12, 25]"] ;
+4 -> 9
+4 -> 10
+5 [label="DispersionCoefficient <= 0.515\nGini = 0.5\nNum_Sample = 14\nValue = [7, 7]"] ;
+5 -> 11
+5 -> 12
+6 [label="DispersionCoefficient <= 0.385\nGini = 0.382041\nNum_Sample = 35\nValue = [26, 9]"] ;
+6 -> 13
+6 -> 14
+7 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+8 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+9 [label="DispersionCoefficient <= 0.385\nGini = 0.391111\nNum_Sample = 30\nValue = [8, 22]"] ;
+9 -> 15
+9 -> 16
+10 [label="DispersionCoefficient <= 0.255\nGini = 0.489796\nNum_Sample = 7\nValue = [4, 3]"] ;
+10 -> 17
+10 -> 18
+11 [label="Mode <= 3\nGini = 0.46281\nNum_Sample = 11\nValue = [7, 4]"] ;
+11 -> 19
+11 -> 20
+12 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+13 [label="DispersionCoefficient <= 0.435\nGini = 0.30839\nNum_Sample = 21\nValue = [17, 4]"] ;
+13 -> 21
+13 -> 22
+14 [label="DispersionCoefficient <= 0.325\nGini = 0.459184\nNum_Sample = 14\nValue = [9, 5]"] ;
+14 -> 23
+14 -> 24
+15 [label="DispersionCoefficient <= 0.405\nGini = 0.426036\nNum_Sample = 13\nValue = [4, 9]"] ;
+15 -> 25
+15 -> 26
+16 [label="DispersionCoefficient <= 0.375\nGini = 0.359862\nNum_Sample = 17\nValue = [4, 13]"] ;
+16 -> 27
+16 -> 28
+17 [label="Mode <= 9\nGini = 0.444444\nNum_Sample = 6\nValue = [4, 2]"] ;
+17 -> 29
+17 -> 30
+18 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+19 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+20 [label="DispersionCoefficient <= 0.625\nGini = 0.42\nNum_Sample = 10\nValue = [7, 3]"] ;
+20 -> 31
+20 -> 32
+21 [label="DispersionCoefficient <= 0.475\nGini = 0.42\nNum_Sample = 10\nValue = [7, 3]"] ;
+21 -> 33
+21 -> 34
+22 [label="DispersionCoefficient <= 0.405\nGini = 0.165289\nNum_Sample = 11\nValue = [10, 1]"] ;
+22 -> 35
+22 -> 36
+23 [label="DispersionCoefficient <= 0.355\nGini = 0.493827\nNum_Sample = 9\nValue = [5, 4]"] ;
+23 -> 37
+23 -> 38
+24 [label="DispersionCoefficient <= 0.315\nGini = 0.32\nNum_Sample = 5\nValue = [4, 1]"] ;
+24 -> 39
+24 -> 40
+25 [label="DispersionCoefficient <= 0.415\nGini = 0.375\nNum_Sample = 8\nValue = [2, 6]"] ;
+25 -> 41
+25 -> 42
+26 [label="DispersionCoefficient <= 0.395\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+26 -> 43
+26 -> 44
+27 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+28 [label="DispersionCoefficient <= 0.365\nGini = 0.391111\nNum_Sample = 15\nValue = [4, 11]"] ;
+28 -> 45
+28 -> 46
+29 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+30 [label="DispersionCoefficient <= 0.3\nGini = 0.32\nNum_Sample = 5\nValue = [4, 1]"] ;
+30 -> 47
+30 -> 48
+31 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+32 [label="DispersionCoefficient <= 0.53\nGini = 0.46875\nNum_Sample = 8\nValue = [5, 3]"] ;
+32 -> 49
+32 -> 50
+33 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+34 [label="Mode <= 5\nGini = 0.46875\nNum_Sample = 8\nValue = [5, 3]"] ;
+34 -> 51
+34 -> 52
+35 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+36 [label="DispersionCoefficient <= 0.395\nGini = 0.277778\nNum_Sample = 6\nValue = [5, 1]"] ;
+36 -> 53
+36 -> 54
+37 [label="Mode <= 5\nGini = 0.444444\nNum_Sample = 6\nValue = [4, 2]"] ;
+37 -> 55
+37 -> 56
+38 [label="DispersionCoefficient <= 0.335\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+38 -> 57
+38 -> 58
+39 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+40 [label="DispersionCoefficient <= 0.285\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+40 -> 59
+40 -> 60
+41 [label="DispersionCoefficient <= 0.43\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+41 -> 61
+41 -> 62
+42 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+43 [label="Mode <= 9\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+43 -> 63
+43 -> 64
+44 [label="Mode <= 9\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+44 -> 65
+44 -> 66
+45 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+46 [label="DispersionCoefficient <= 0.355\nGini = 0.35503\nNum_Sample = 13\nValue = [3, 10]"] ;
+46 -> 67
+46 -> 68
+47 [label="bad <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+48 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+49 [label="DispersionCoefficient <= 0.545\nGini = 0.5\nNum_Sample = 6\nValue = [3, 3]"] ;
+49 -> 69
+49 -> 70
+50 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+51 [label="DispersionCoefficient <= 0.465\nGini = 0.489796\nNum_Sample = 7\nValue = [4, 3]"] ;
+51 -> 71
+51 -> 72
+52 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+53 [label="Mode <= 5\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+53 -> 73
+53 -> 74
+54 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+55 [label="DispersionCoefficient <= 0.375\nGini = 0.48\nNum_Sample = 5\nValue = [3, 2]"] ;
+55 -> 75
+55 -> 76
+56 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+57 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+58 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+59 [label="bad <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+60 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+61 [label="Mode <= 9\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+61 -> 77
+61 -> 78
+62 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+63 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+64 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+65 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+66 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+67 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+68 [label="DispersionCoefficient <= 0.345\nGini = 0.42\nNum_Sample = 10\nValue = [3, 7]"] ;
+68 -> 79
+68 -> 80
+69 [label="DispersionCoefficient <= 0.555\nGini = 0.48\nNum_Sample = 5\nValue = [3, 2]"] ;
+69 -> 81
+69 -> 82
+70 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+71 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+72 [label="DispersionCoefficient <= 0.455\nGini = 0.444444\nNum_Sample = 6\nValue = [4, 2]"] ;
+72 -> 83
+72 -> 84
+73 [label="bad <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+74 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+75 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+76 [label="bad <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+77 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+78 [label="good <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+79 [label="Mode <= 9\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+79 -> 85
+79 -> 86
+80 [label="Mode <= 9\nGini = 0.32\nNum_Sample = 5\nValue = [1, 4]"] ;
+80 -> 87
+80 -> 88
+81 [label="DispersionCoefficient <= 0.58\nGini = 0.5\nNum_Sample = 4\nValue = [2, 2]"] ;
+81 -> 89
+81 -> 90
+82 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+83 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+84 [label="DispersionCoefficient <= 0.445\nGini = 0.48\nNum_Sample = 5\nValue = [3, 2]"] ;
+84 -> 91
+84 -> 92
+85 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+86 [label="good <= 0\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+87 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+88 [label="good <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+89 [label="DispersionCoefficient <= 0.61\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+89 -> 93
+89 -> 94
+90 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+91 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+92 [label="bad <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+93 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+94 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+}

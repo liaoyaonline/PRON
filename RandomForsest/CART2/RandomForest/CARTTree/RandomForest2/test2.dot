@@ -1,0 +1,204 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="BookWordCount <= 108.2\nGini = 0.483471\nNum_Sample = 154\nValue = [91, 63]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="ThreeStarRate <= 0.295\nGini = 0.491966\nNum_Sample = 71\nValue = [31, 40]"] ;
+1 -> 3
+1 -> 4
+2 [label="ThreeStarRate <= 0.335\nGini = 0.400639\nNum_Sample = 83\nValue = [60, 23]"] ;
+2 -> 5
+2 -> 6
+3 [label="DispersionCoefficient <= 0.35\nGini = 0.304688\nNum_Sample = 16\nValue = [13, 3]"] ;
+3 -> 7
+3 -> 8
+4 [label="DispersionCoefficient <= 0.455\nGini = 0.440331\nNum_Sample = 55\nValue = [18, 37]"] ;
+4 -> 9
+4 -> 10
+5 [label="AddListCount <= 8.5\nGini = 0.0867769\nNum_Sample = 22\nValue = [21, 1]"] ;
+5 -> 11
+5 -> 12
+6 [label="BookScoreCount <= 26\nGini = 0.461166\nNum_Sample = 61\nValue = [39, 22]"] ;
+6 -> 13
+6 -> 14
+7 [label="BookScoreCount <= 21\nGini = 0.142012\nNum_Sample = 13\nValue = [12, 1]"] ;
+7 -> 15
+7 -> 16
+8 [label="Kurtosis <= 375.72\nGini = 0.444444\nNum_Sample = 3\nValue = [1, 2]"] ;
+8 -> 17
+8 -> 18
+9 [label="AddListCount <= 37\nGini = 0.495868\nNum_Sample = 22\nValue = [10, 12]"] ;
+9 -> 19
+9 -> 20
+10 [label="FiveStarRate <= 0.105\nGini = 0.367309\nNum_Sample = 33\nValue = [8, 25]"] ;
+10 -> 21
+10 -> 22
+11 [label="bad\nGini = 0\nNum_Sample = 13\nValue = [13, 0]"] ;
+12 [label="BookScore <= 6.25\nGini = 0.197531\nNum_Sample = 9\nValue = [8, 1]"] ;
+12 -> 23
+12 -> 24
+13 [label="StandardDeviation <= 2.565\nGini = 0.490581\nNum_Sample = 51\nValue = [29, 22]"] ;
+13 -> 25
+13 -> 26
+14 [label="bad\nGini = 0\nNum_Sample = 10\nValue = [10, 0]"] ;
+15 [label="bad\nGini = 0\nNum_Sample = 12\nValue = [12, 0]"] ;
+16 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+17 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+18 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+19 [label="ThreeStarRate <= 0.215\nGini = 0.459184\nNum_Sample = 14\nValue = [9, 5]"] ;
+19 -> 27
+19 -> 28
+20 [label="DispersionCoefficient <= 0.475\nGini = 0.21875\nNum_Sample = 8\nValue = [1, 7]"] ;
+20 -> 29
+20 -> 30
+21 [label="BookScoreCount <= 270\nGini = 0.341797\nNum_Sample = 32\nValue = [7, 25]"] ;
+21 -> 31
+21 -> 32
+22 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+23 [label="DispersionCoefficient <= 0.345\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+23 -> 33
+23 -> 34
+24 [label="bad\nGini = 0\nNum_Sample = 6\nValue = [6, 0]"] ;
+25 [label="Kurtosis <= 157.315\nGini = 0.46281\nNum_Sample = 22\nValue = [8, 14]"] ;
+25 -> 35
+25 -> 36
+26 [label="BookWordCount <= 68.95\nGini = 0.399524\nNum_Sample = 29\nValue = [21, 8]"] ;
+26 -> 37
+26 -> 38
+27 [label="Kurtosis <= 89.875\nGini = 0.244898\nNum_Sample = 7\nValue = [6, 1]"] ;
+27 -> 39
+27 -> 40
+28 [label="DispersionCoefficient <= 0.71\nGini = 0.489796\nNum_Sample = 7\nValue = [3, 4]"] ;
+28 -> 41
+28 -> 42
+29 [label="good\nGini = 0\nNum_Sample = 6\nValue = [0, 6]"] ;
+30 [label="FourStarRate <= 0.125\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+30 -> 43
+30 -> 44
+31 [label="FourStarRate <= 0.195\nGini = 0.260355\nNum_Sample = 26\nValue = [4, 22]"] ;
+31 -> 45
+31 -> 46
+32 [label="Mode <= 9\nGini = 0.5\nNum_Sample = 6\nValue = [3, 3]"] ;
+32 -> 47
+32 -> 48
+33 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+34 [label="StandardDeviation <= 2.02\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+34 -> 49
+34 -> 50
+35 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+36 [label="Median <= 5\nGini = 0.493827\nNum_Sample = 18\nValue = [8, 10]"] ;
+36 -> 51
+36 -> 52
+37 [label="AddListCount <= 7.5\nGini = 0.142012\nNum_Sample = 13\nValue = [12, 1]"] ;
+37 -> 53
+37 -> 54
+38 [label="DispersionCoefficient <= 0.255\nGini = 0.492188\nNum_Sample = 16\nValue = [9, 7]"] ;
+38 -> 55
+38 -> 56
+39 [label="FiveStarRate <= 0.195\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+39 -> 57
+39 -> 58
+40 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+41 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+42 [label="Kurtosis <= 70.675\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+42 -> 59
+42 -> 60
+43 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+44 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+45 [label="Mode <= 7\nGini = 0.2112\nNum_Sample = 25\nValue = [3, 22]"] ;
+45 -> 61
+45 -> 62
+46 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+47 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+48 [label="TwoStarRate <= 0.165\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+48 -> 63
+48 -> 64
+49 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+50 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+51 [label="TwoStarRate <= 0.125\nGini = 0.5\nNum_Sample = 16\nValue = [8, 8]"] ;
+51 -> 65
+51 -> 66
+52 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+53 [label="bad\nGini = 0\nNum_Sample = 12\nValue = [12, 0]"] ;
+54 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+55 [label="BookScoreCount <= 42\nGini = 0.459184\nNum_Sample = 14\nValue = [9, 5]"] ;
+55 -> 67
+55 -> 68
+56 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+57 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+58 [label="ThreeStarRate <= 0.265\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+58 -> 69
+58 -> 70
+59 [label="Quartile <= 7\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+59 -> 71
+59 -> 72
+60 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+61 [label="DispersionCoefficient <= 0.375\nGini = 0.15879\nNum_Sample = 23\nValue = [2, 21]"] ;
+61 -> 73
+61 -> 74
+62 [label="FiveStarRate <= 0.17\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+62 -> 75
+62 -> 76
+63 [label="Mode <= 7\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+63 -> 77
+63 -> 78
+64 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+65 [label="OneStarRate <= 0.185\nGini = 0.42\nNum_Sample = 10\nValue = [3, 7]"] ;
+65 -> 79
+65 -> 80
+66 [label="StandardDeviation <= 3.135\nGini = 0.277778\nNum_Sample = 6\nValue = [5, 1]"] ;
+66 -> 81
+66 -> 82
+67 [label="BookWordCount <= 59.05\nGini = 0.375\nNum_Sample = 12\nValue = [9, 3]"] ;
+67 -> 83
+67 -> 84
+68 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+69 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+70 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+71 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+72 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+73 [label="good\nGini = 0\nNum_Sample = 9\nValue = [0, 9]"] ;
+74 [label="FourStarRate <= 0.31\nGini = 0.244898\nNum_Sample = 14\nValue = [2, 12]"] ;
+74 -> 85
+74 -> 86
+75 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+76 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+77 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+78 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+79 [label="BookWordCount <= 52.95\nGini = 0.345679\nNum_Sample = 9\nValue = [2, 7]"] ;
+79 -> 87
+79 -> 88
+80 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+81 [label="ThreeStarRate <= 0.1\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+81 -> 89
+81 -> 90
+82 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+83 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+84 [label="BookScoreCount <= 146\nGini = 0.297521\nNum_Sample = 11\nValue = [9, 2]"] ;
+84 -> 91
+84 -> 92
+85 [label="good\nGini = 0\nNum_Sample = 8\nValue = [0, 8]"] ;
+86 [label="FiveStarRate <= 0.395\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+86 -> 93
+86 -> 94
+87 [label="good\nGini = 0\nNum_Sample = 6\nValue = [0, 6]"] ;
+88 [label="StandardDeviation <= 2.65\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+88 -> 95
+88 -> 96
+89 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+90 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+91 [label="DispersionCoefficient <= 0.33\nGini = 0.444444\nNum_Sample = 6\nValue = [4, 2]"] ;
+91 -> 97
+91 -> 98
+92 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+93 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+94 [label="AddListCount <= 181.5\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+94 -> 99
+94 -> 100
+95 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+96 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+97 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+98 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+99 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+100 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+}

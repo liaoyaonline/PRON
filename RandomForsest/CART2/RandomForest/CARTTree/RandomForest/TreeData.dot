@@ -1,0 +1,52 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Petal.Width <= 0.8\nGini = 0.664058\nNum_Sample = 89\nValue = [32, 31, 26]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="Petal.Width <= 1.75\nGini = 0.496153\nNum_Sample = 57\nValue = [0, 31, 26]"] ;
+1 -> 3
+1 -> 4
+2 [label="setosa\nGini = 0\nNum_Sample = 32\nValue = [32, 0, 0]"] ;
+3 [label="Sepal.Length <= 6\nGini = 0.0831758\nNum_Sample = 23\nValue = [0, 1, 22]"] ;
+3 -> 5
+3 -> 6
+4 [label="Sepal.Length <= 7.1\nGini = 0.207612\nNum_Sample = 34\nValue = [0, 30, 4]"] ;
+4 -> 7
+4 -> 8
+5 [label="virginica\nGini = 0\nNum_Sample = 20\nValue = [0, 0, 20]"] ;
+6 [label="Petal.Width <= 1.9\nGini = 0.444444\nNum_Sample = 3\nValue = [0, 1, 2]"] ;
+6 -> 9
+6 -> 10
+7 [label="virginica\nGini = 0\nNum_Sample = 1\nValue = [0, 0, 1]"] ;
+8 [label="Petal.Width <= 1.35\nGini = 0.165289\nNum_Sample = 33\nValue = [0, 30, 3]"] ;
+8 -> 11
+8 -> 12
+9 [label="virginica\nGini = 0\nNum_Sample = 2\nValue = [0, 0, 2]"] ;
+10 [label="versicolor\nGini = 0\nNum_Sample = 1\nValue = [0, 1, 0]"] ;
+11 [label="Sepal.Length <= 6.35\nGini = 0.277778\nNum_Sample = 18\nValue = [0, 15, 3]"] ;
+11 -> 13
+11 -> 14
+12 [label="versicolor\nGini = 0\nNum_Sample = 15\nValue = [0, 15, 0]"] ;
+13 [label="versicolor\nGini = 0\nNum_Sample = 7\nValue = [0, 7, 0]"] ;
+14 [label="Sepal.Length <= 6.25\nGini = 0.396694\nNum_Sample = 11\nValue = [0, 8, 3]"] ;
+14 -> 15
+14 -> 16
+15 [label="virginica\nGini = 0\nNum_Sample = 1\nValue = [0, 0, 1]"] ;
+16 [label="Petal.Width <= 1.55\nGini = 0.32\nNum_Sample = 10\nValue = [0, 8, 2]"] ;
+16 -> 17
+16 -> 18
+17 [label="versicolor\nGini = 0\nNum_Sample = 2\nValue = [0, 2, 0]"] ;
+18 [label="Sepal.Length <= 5.8\nGini = 0.375\nNum_Sample = 8\nValue = [0, 6, 2]"] ;
+18 -> 19
+18 -> 20
+19 [label="Sepal.Length <= 6.15\nGini = 0.444444\nNum_Sample = 6\nValue = [0, 4, 2]"] ;
+19 -> 21
+19 -> 22
+20 [label="versicolor\nGini = 0\nNum_Sample = 2\nValue = [0, 2, 0]"] ;
+21 [label="versicolor\nGini = 0\nNum_Sample = 1\nValue = [0, 1, 0]"] ;
+22 [label="Petal.Width <= 1.45\nGini = 0.48\nNum_Sample = 5\nValue = [0, 3, 2]"] ;
+22 -> 23
+22 -> 24
+23 [label="virginica <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [0, 1, 1]"] ;
+24 [label="versicolor <= 0\nGini = 0.444444\nNum_Sample = 3\nValue = [0, 2, 1]"] ;
+}

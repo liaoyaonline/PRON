@@ -1,0 +1,280 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Petal.Length <= 2.45\nAverage = 1.19933\nVariance = 86.5699\nNum_Sample = 150\n"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="Petal.Length <= 4.75\nAverage = 1.676\nVariance = 17.8624\nNum_Sample = 100\n"] ;
+1 -> 3
+1 -> 4
+2 [label="Sepal.Length <= 4.95\nAverage = 0.246\nVariance = 0.5442\nNum_Sample = 50\n"] ;
+2 -> 5
+2 -> 6
+3 [label="Petal.Length <= 5.05\nAverage = 1.98364\nVariance = 4.77527\nNum_Sample = 55\n"] ;
+3 -> 7
+3 -> 8
+4 [label="Petal.Length <= 4.15\nAverage = 1.3\nVariance = 1.52\nNum_Sample = 45\n"] ;
+4 -> 9
+4 -> 10
+5 [label="Petal.Length <= 1.55\nAverage = 0.28\nVariance = 0.388\nNum_Sample = 30\n"] ;
+5 -> 11
+5 -> 12
+6 [label="Sepal.Width <= 2.6\nAverage = 0.195\nVariance = 0.0695\nNum_Sample = 20\n"] ;
+6 -> 13
+6 -> 14
+7 [label="Sepal.Width <= 3.05\nAverage = 2.0619\nVariance = 3.21905\nNum_Sample = 42\n"] ;
+7 -> 15
+7 -> 16
+8 [label="Sepal.Length <= 6.75\nAverage = 1.73077\nVariance = 0.467692\nNum_Sample = 13\n"] ;
+8 -> 17
+8 -> 18
+9 [label="Petal.Length <= 4.45\nAverage = 1.40769\nVariance = 0.438462\nNum_Sample = 26\n"] ;
+9 -> 19
+9 -> 20
+10 [label="Sepal.Width <= 2.65\nAverage = 1.15263\nVariance = 0.367368\nNum_Sample = 19\n"] ;
+10 -> 21
+10 -> 22
+11 [label="Sepal.Width <= 3.15\nAverage = 0.355556\nVariance = 0.162222\nNum_Sample = 9\n"] ;
+11 -> 23
+11 -> 24
+12 [label="Sepal.Width <= 4.3\nAverage = 0.247619\nVariance = 0.152381\nNum_Sample = 21\n"] ;
+12 -> 25
+12 -> 26
+13 [label="Sepal.Length <= 4.35\nAverage = 0.189474\nVariance = 0.0578947\nNum_Sample = 19\n"] ;
+13 -> 27
+13 -> 28
+14 [label="0.3\nAverage = 0.3\nVariance = 0\nNum_Sample = 1\n"] ;
+15 [label="Sepal.Width <= 3.25\nAverage = 2.22353\nVariance = 0.810588\nNum_Sample = 17\n"] ;
+15 -> 29
+15 -> 30
+16 [label="Sepal.Length <= 6.35\nAverage = 1.952\nVariance = 1.6624\nNum_Sample = 25\n"] ;
+16 -> 31
+16 -> 32
+17 [label="1.45\nAverage = 1.45\nVariance = 0.005\nNum_Sample = 2\n"] ;
+18 [label="Sepal.Length <= 5.8\nAverage = 1.78182\nVariance = 0.276364\nNum_Sample = 11\n"] ;
+18 -> 33
+18 -> 34
+19 [label="Sepal.Length <= 5.15\nAverage = 1.4625\nVariance = 0.2375\nNum_Sample = 16\n"] ;
+19 -> 35
+19 -> 36
+20 [label="Sepal.Length <= 5.8\nAverage = 1.32\nVariance = 0.076\nNum_Sample = 10\n"] ;
+20 -> 37
+20 -> 38
+21 [label="Sepal.Length <= 5.75\nAverage = 1.25714\nVariance = 0.0971429\nNum_Sample = 7\n"] ;
+21 -> 39
+21 -> 40
+22 [label="Petal.Length <= 3.95\nAverage = 1.09167\nVariance = 0.149167\nNum_Sample = 12\n"] ;
+22 -> 41
+22 -> 42
+23 [label="Sepal.Length <= 5.05\nAverage = 0.375\nVariance = 0.135\nNum_Sample = 8\n"] ;
+23 -> 43
+23 -> 44
+24 [label="0.2\nAverage = 0.2\nVariance = 0\nNum_Sample = 1\n"] ;
+25 [label="0.4\nAverage = 0.4\nVariance = 0\nNum_Sample = 1\n"] ;
+26 [label="Sepal.Width <= 3.95\nAverage = 0.24\nVariance = 0.128\nNum_Sample = 20\n"] ;
+26 -> 45
+26 -> 46
+27 [label="Sepal.Length <= 4.85\nAverage = 0.194444\nVariance = 0.0494444\nNum_Sample = 18\n"] ;
+27 -> 47
+27 -> 48
+28 [label="0.1\nAverage = 0.1\nVariance = 0\nNum_Sample = 1\n"] ;
+29 [label="Petal.Length <= 6.25\nAverage = 2.3125\nVariance = 0.26875\nNum_Sample = 8\n"] ;
+29 -> 49
+29 -> 50
+30 [label="Petal.Length <= 5.95\nAverage = 2.14444\nVariance = 0.422222\nNum_Sample = 9\n"] ;
+30 -> 51
+30 -> 52
+31 [label="Sepal.Length <= 7.5\nAverage = 2.02941\nVariance = 0.675294\nNum_Sample = 17\n"] ;
+31 -> 53
+31 -> 54
+32 [label="Sepal.Length <= 5.85\nAverage = 1.7875\nVariance = 0.66875\nNum_Sample = 8\n"] ;
+32 -> 55
+32 -> 56
+33 [label="Sepal.Width <= 2.35\nAverage = 1.73333\nVariance = 0.16\nNum_Sample = 9\n"] ;
+33 -> 57
+33 -> 58
+34 [label="2\nAverage = 2\nVariance = 0\nNum_Sample = 2\n"] ;
+35 [label="Sepal.Width <= 3.25\nAverage = 1.44667\nVariance = 0.177333\nNum_Sample = 15\n"] ;
+35 -> 59
+35 -> 60
+36 [label="1.7\nAverage = 1.7\nVariance = 0\nNum_Sample = 1\n"] ;
+37 [label="Sepal.Width <= 2.95\nAverage = 1.36667\nVariance = 0.0333333\nNum_Sample = 6\n"] ;
+37 -> 61
+37 -> 62
+38 [label="1.25\nAverage = 1.25\nVariance = 0.01\nNum_Sample = 4\n"] ;
+39 [label="Petal.Length <= 4.05\nAverage = 1.16667\nVariance = 0.0466667\nNum_Sample = 3\n"] ;
+39 -> 63
+39 -> 64
+40 [label="1.325\nAverage = 1.325\nVariance = 0.0075\nNum_Sample = 4\n"] ;
+41 [label="Sepal.Width <= 2.25\nAverage = 1.2\nVariance = 0.06\nNum_Sample = 4\n"] ;
+41 -> 65
+41 -> 66
+42 [label="1.0375\nAverage = 1.0375\nVariance = 0.01875\nNum_Sample = 8\n"] ;
+43 [label="Sepal.Width <= 3.35\nAverage = 0.333333\nVariance = 0.0733333\nNum_Sample = 6\n"] ;
+43 -> 67
+43 -> 68
+44 [label="0.5\nAverage = 0.5\nVariance = 0.02\nNum_Sample = 2\n"] ;
+45 [label="0.166667\nAverage = 0.166667\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+46 [label="Sepal.Width <= 3.85\nAverage = 0.252941\nVariance = 0.102353\nNum_Sample = 17\n"] ;
+46 -> 69
+46 -> 70
+47 [label="0.15\nAverage = 0.15\nVariance = 0.01\nNum_Sample = 4\n"] ;
+48 [label="Sepal.Width <= 3.3\nAverage = 0.207143\nVariance = 0.0292857\nNum_Sample = 14\n"] ;
+48 -> 71
+48 -> 72
+49 [label="Petal.Length <= 6.55\nAverage = 2.1\nVariance = 0.02\nNum_Sample = 2\n"] ;
+49 -> 73
+49 -> 74
+50 [label="Petal.Length <= 5.85\nAverage = 2.38333\nVariance = 0.128333\nNum_Sample = 6\n"] ;
+50 -> 75
+50 -> 76
+51 [label="1.8\nAverage = 1.8\nVariance = 0\nNum_Sample = 1\n"] ;
+52 [label="Sepal.Length <= 6.6\nAverage = 2.1875\nVariance = 0.28875\nNum_Sample = 8\n"] ;
+52 -> 77
+52 -> 78
+53 [label="Petal.Length <= 6.8\nAverage = 2.175\nVariance = 0.0675\nNum_Sample = 4\n"] ;
+53 -> 79
+53 -> 80
+54 [label="Sepal.Length <= 7.15\nAverage = 1.98462\nVariance = 0.496923\nNum_Sample = 13\n"] ;
+54 -> 81
+54 -> 82
+55 [label="Sepal.Width <= 2.85\nAverage = 1.62\nVariance = 0.128\nNum_Sample = 5\n"] ;
+55 -> 83
+55 -> 84
+56 [label="Sepal.Width <= 2.75\nAverage = 2.06667\nVariance = 0.166667\nNum_Sample = 3\n"] ;
+56 -> 85
+56 -> 86
+57 [label="Sepal.Length <= 6.25\nAverage = 1.7625\nVariance = 0.09875\nNum_Sample = 8\n"] ;
+57 -> 87
+57 -> 88
+58 [label="1.5\nAverage = 1.5\nVariance = 0\nNum_Sample = 1\n"] ;
+59 [label="1.6\nAverage = 1.6\nVariance = 0\nNum_Sample = 2\n"] ;
+60 [label="Petal.Length <= 4.55\nAverage = 1.42308\nVariance = 0.123077\nNum_Sample = 13\n"] ;
+60 -> 89
+60 -> 90
+61 [label="1.43333\nAverage = 1.43333\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+62 [label="1.3\nAverage = 1.3\nVariance = 0\nNum_Sample = 3\n"] ;
+63 [label="1\nAverage = 1\nVariance = 0\nNum_Sample = 1\n"] ;
+64 [label="1.25\nAverage = 1.25\nVariance = 0.005\nNum_Sample = 2\n"] ;
+65 [label="1.26667\nAverage = 1.26667\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+66 [label="1\nAverage = 1\nVariance = 0\nNum_Sample = 1\n"] ;
+67 [label="Sepal.Width <= 3.85\nAverage = 0.3\nVariance = 0.04\nNum_Sample = 5\n"] ;
+67 -> 91
+67 -> 92
+68 [label="0.5\nAverage = 0.5\nVariance = 0\nNum_Sample = 1\n"] ;
+69 [label="0.4\nAverage = 0.4\nVariance = 0\nNum_Sample = 1\n"] ;
+70 [label="Petal.Length <= 1.45\nAverage = 0.24375\nVariance = 0.079375\nNum_Sample = 16\n"] ;
+70 -> 93
+70 -> 94
+71 [label="0.225\nAverage = 0.225\nVariance = 0.0075\nNum_Sample = 4\n"] ;
+72 [label="0.2\nAverage = 0.2\nVariance = 0.02\nNum_Sample = 10\n"] ;
+73 [label="2.2\nAverage = 2.2\nVariance = 0\nNum_Sample = 1\n"] ;
+74 [label="2\nAverage = 2\nVariance = 0\nNum_Sample = 1\n"] ;
+75 [label="2.5\nAverage = 2.5\nVariance = 0\nNum_Sample = 2\n"] ;
+76 [label="Petal.Length <= 5.65\nAverage = 2.325\nVariance = 0.0875\nNum_Sample = 4\n"] ;
+76 -> 95
+76 -> 96
+77 [label="Petal.Length <= 5.5\nAverage = 2.28\nVariance = 0.048\nNum_Sample = 5\n"] ;
+77 -> 97
+77 -> 98
+78 [label="Petal.Length <= 5.4\nAverage = 2.03333\nVariance = 0.126667\nNum_Sample = 3\n"] ;
+78 -> 99
+78 -> 100
+79 [label="2.3\nAverage = 2.3\nVariance = 0\nNum_Sample = 1\n"] ;
+80 [label="Petal.Length <= 6.35\nAverage = 2.13333\nVariance = 0.0466667\nNum_Sample = 3\n"] ;
+80 -> 101
+80 -> 102
+81 [label="Petal.Length <= 5.95\nAverage = 1.76667\nVariance = 0.0466667\nNum_Sample = 3\n"] ;
+81 -> 103
+81 -> 104
+82 [label="Sepal.Width <= 2.75\nAverage = 2.05\nVariance = 0.265\nNum_Sample = 10\n"] ;
+82 -> 105
+82 -> 106
+83 [label="1.8\nAverage = 1.8\nVariance = 0\nNum_Sample = 2\n"] ;
+84 [label="Petal.Length <= 5.35\nAverage = 1.5\nVariance = 0.02\nNum_Sample = 3\n"] ;
+84 -> 107
+84 -> 108
+85 [label="2.4\nAverage = 2.4\nVariance = 0\nNum_Sample = 1\n"] ;
+86 [label="1.9\nAverage = 1.9\nVariance = 0\nNum_Sample = 2\n"] ;
+87 [label="Petal.Length <= 4.95\nAverage = 1.725\nVariance = 0.0875\nNum_Sample = 4\n"] ;
+87 -> 109
+87 -> 110
+88 [label="1.8\nAverage = 1.8\nVariance = 0\nNum_Sample = 4\n"] ;
+89 [label="Sepal.Length <= 6.3\nAverage = 1.38571\nVariance = 0.0685714\nNum_Sample = 7\n"] ;
+89 -> 111
+89 -> 112
+90 [label="Sepal.Width <= 2.85\nAverage = 1.46667\nVariance = 0.0333333\nNum_Sample = 6\n"] ;
+90 -> 113
+90 -> 114
+91 [label="0.4\nAverage = 0.4\nVariance = 0\nNum_Sample = 1\n"] ;
+92 [label="Petal.Length <= 1.8\nAverage = 0.275\nVariance = 0.0275\nNum_Sample = 4\n"] ;
+92 -> 115
+92 -> 116
+93 [label="Sepal.Length <= 5.05\nAverage = 0.2625\nVariance = 0.05875\nNum_Sample = 8\n"] ;
+93 -> 117
+93 -> 118
+94 [label="0.225\nAverage = 0.225\nVariance = 0.015\nNum_Sample = 8\n"] ;
+95 [label="\nAverage = 2.3\nVariance = 0.08\nNum_Sample = 2\n"] ;
+96 [label="2.35\nAverage = 2.35\nVariance = 0.005\nNum_Sample = 2\n"] ;
+97 [label="2.33333\nAverage = 2.33333\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+98 [label="2.2\nAverage = 2.2\nVariance = 0.02\nNum_Sample = 2\n"] ;
+99 [label="1.8\nAverage = 1.8\nVariance = 0\nNum_Sample = 1\n"] ;
+100 [label="Petal.Length <= 5.2\nAverage = 2.15\nVariance = 0.045\nNum_Sample = 2\n"] ;
+100 -> 119
+100 -> 120
+101 [label="2.05\nAverage = 2.05\nVariance = 0.005\nNum_Sample = 2\n"] ;
+102 [label="2.3\nAverage = 2.3\nVariance = 0\nNum_Sample = 1\n"] ;
+103 [label="1.85\nAverage = 1.85\nVariance = 0.005\nNum_Sample = 2\n"] ;
+104 [label="1.6\nAverage = 1.6\nVariance = 0\nNum_Sample = 1\n"] ;
+105 [label="Sepal.Length <= 6.6\nAverage = 2.1\nVariance = 0.16\nNum_Sample = 8\n"] ;
+105 -> 121
+105 -> 122
+106 [label="1.85\nAverage = 1.85\nVariance = 0.005\nNum_Sample = 2\n"] ;
+107 [label="1.4\nAverage = 1.4\nVariance = 0\nNum_Sample = 1\n"] ;
+108 [label="1.55\nAverage = 1.55\nVariance = 0.005\nNum_Sample = 2\n"] ;
+109 [label="1.8\nAverage = 1.8\nVariance = 0.02\nNum_Sample = 2\n"] ;
+110 [label="Sepal.Width <= 2.6\nAverage = 1.65\nVariance = 0.045\nNum_Sample = 2\n"] ;
+110 -> 123
+110 -> 124
+111 [label="Sepal.Width <= 2.85\nAverage = 1.425\nVariance = 0.0275\nNum_Sample = 4\n"] ;
+111 -> 125
+111 -> 126
+112 [label="Sepal.Width <= 2.85\nAverage = 1.33333\nVariance = 0.0266667\nNum_Sample = 3\n"] ;
+112 -> 127
+112 -> 128
+113 [label="1.5\nAverage = 1.5\nVariance = 0\nNum_Sample = 4\n"] ;
+114 [label="1.4\nAverage = 1.4\nVariance = 0.02\nNum_Sample = 2\n"] ;
+115 [label="0.4\nAverage = 0.4\nVariance = 0\nNum_Sample = 1\n"] ;
+116 [label="0.233333\nAverage = 0.233333\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+117 [label="Sepal.Length <= 5.15\nAverage = 0.271429\nVariance = 0.0542857\nNum_Sample = 7\n"] ;
+117 -> 129
+117 -> 130
+118 [label="0.2\nAverage = 0.2\nVariance = 0\nNum_Sample = 1\n"] ;
+119 [label="2.3\nAverage = 2.3\nVariance = 0\nNum_Sample = 1\n"] ;
+120 [label="2\nAverage = 2\nVariance = 0\nNum_Sample = 1\n"] ;
+121 [label="Petal.Length <= 5.35\nAverage = 2.16667\nVariance = 0.0266667\nNum_Sample = 3\n"] ;
+121 -> 131
+121 -> 132
+122 [label="Petal.Length <= 5.55\nAverage = 2.06\nVariance = 0.112\nNum_Sample = 5\n"] ;
+122 -> 133
+122 -> 134
+123 [label="1.8\nAverage = 1.8\nVariance = 0\nNum_Sample = 1\n"] ;
+124 [label="1.5\nAverage = 1.5\nVariance = 0\nNum_Sample = 1\n"] ;
+125 [label="1.4\nAverage = 1.4\nVariance = 0.02\nNum_Sample = 3\n"] ;
+126 [label="1.5\nAverage = 1.5\nVariance = 0\nNum_Sample = 1\n"] ;
+127 [label="1.4\nAverage = 1.4\nVariance = 0\nNum_Sample = 2\n"] ;
+128 [label="1.2\nAverage = 1.2\nVariance = 0\nNum_Sample = 1\n"] ;
+129 [label="Sepal.Width <= 3.45\nAverage = 0.25\nVariance = 0.03\nNum_Sample = 4\n"] ;
+129 -> 135
+129 -> 136
+130 [label="Sepal.Width <= 3.55\nAverage = 0.3\nVariance = 0.02\nNum_Sample = 3\n"] ;
+130 -> 137
+130 -> 138
+131 [label="2.1\nAverage = 2.1\nVariance = 0\nNum_Sample = 2\n"] ;
+132 [label="2.3\nAverage = 2.3\nVariance = 0\nNum_Sample = 1\n"] ;
+133 [label="2.16667\nAverage = 2.16667\nVariance = 0.00666667\nNum_Sample = 3\n"] ;
+134 [label="1.9\nAverage = 1.9\nVariance = 0.02\nNum_Sample = 2\n"] ;
+135 [label="0.2\nAverage = 0.2\nVariance = 0\nNum_Sample = 3\n"] ;
+136 [label="0.4\nAverage = 0.4\nVariance = 0\nNum_Sample = 1\n"] ;
+137 [label="0.35\nAverage = 0.35\nVariance = 0.005\nNum_Sample = 2\n"] ;
+138 [label="0.2\nAverage = 0.2\nVariance = 0\nNum_Sample = 1\n"] ;
+}

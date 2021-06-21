@@ -1,0 +1,160 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="BookScoreCount <= 282\nGini = 0.491019\nNum_Sample = 97\nValue = [55, 42]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="BookScoreCount <= 370.5\nGini = 0.46875\nNum_Sample = 32\nValue = [12, 20]"] ;
+1 -> 3
+1 -> 4
+2 [label="Mode <= 5\nGini = 0.447811\nNum_Sample = 65\nValue = [43, 22]"] ;
+2 -> 5
+2 -> 6
+3 [label="BookScoreCount <= 412.5\nGini = 0.489796\nNum_Sample = 28\nValue = [12, 16]"] ;
+3 -> 7
+3 -> 8
+4 [label="good\nGini = 0\nNum_Sample = 4\nValue = [0, 4]"] ;
+5 [label="BookScoreCount <= 19.5\nGini = 0.393491\nNum_Sample = 52\nValue = [38, 14]"] ;
+5 -> 9
+5 -> 10
+6 [label="BookScoreCount <= 72\nGini = 0.473373\nNum_Sample = 13\nValue = [5, 8]"] ;
+6 -> 11
+6 -> 12
+7 [label="BookScoreCount <= 529\nGini = 0.473373\nNum_Sample = 26\nValue = [10, 16]"] ;
+7 -> 13
+7 -> 14
+8 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+9 [label="BookScoreCount <= 220\nGini = 0.3648\nNum_Sample = 50\nValue = [38, 12]"] ;
+9 -> 15
+9 -> 16
+10 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+11 [label="good\nGini = 0\nNum_Sample = 6\nValue = [0, 6]"] ;
+12 [label="BookScoreCount <= 26.5\nGini = 0.408163\nNum_Sample = 7\nValue = [5, 2]"] ;
+12 -> 17
+12 -> 18
+13 [label="Mode <= 7\nGini = 0.498866\nNum_Sample = 21\nValue = [10, 11]"] ;
+13 -> 19
+13 -> 20
+14 [label="good\nGini = 0\nNum_Sample = 5\nValue = [0, 5]"] ;
+15 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+16 [label="BookScoreCount <= 217.5\nGini = 0.385633\nNum_Sample = 46\nValue = [34, 12]"] ;
+16 -> 21
+16 -> 22
+17 [label="BookScoreCount <= 37.5\nGini = 0.48\nNum_Sample = 5\nValue = [3, 2]"] ;
+17 -> 23
+17 -> 24
+18 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+19 [label="BookScoreCount <= 2111\nGini = 0.46875\nNum_Sample = 16\nValue = [6, 10]"] ;
+19 -> 25
+19 -> 26
+20 [label="BookScoreCount <= 1482.5\nGini = 0.32\nNum_Sample = 5\nValue = [4, 1]"] ;
+20 -> 27
+20 -> 28
+21 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+22 [label="BookScoreCount <= 134.5\nGini = 0.369383\nNum_Sample = 45\nValue = [34, 11]"] ;
+22 -> 29
+22 -> 30
+23 [label="Mode <= 3\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+23 -> 31
+23 -> 32
+24 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+25 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+26 [label="BookScoreCount <= 2086\nGini = 0.489796\nNum_Sample = 14\nValue = [6, 8]"] ;
+26 -> 33
+26 -> 34
+27 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+28 [label="bad\nGini = 0\nNum_Sample = 4\nValue = [4, 0]"] ;
+29 [label="BookScoreCount <= 187\nGini = 0.197531\nNum_Sample = 9\nValue = [8, 1]"] ;
+29 -> 35
+29 -> 36
+30 [label="BookScoreCount <= 120.5\nGini = 0.401235\nNum_Sample = 36\nValue = [26, 10]"] ;
+30 -> 37
+30 -> 38
+31 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+32 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+33 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+34 [label="Mode <= 9\nGini = 0.473373\nNum_Sample = 13\nValue = [5, 8]"] ;
+34 -> 39
+34 -> 40
+35 [label="BookScoreCount <= 196.5\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+35 -> 41
+35 -> 42
+36 [label="bad\nGini = 0\nNum_Sample = 6\nValue = [6, 0]"] ;
+37 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+38 [label="Mode <= 7\nGini = 0.382041\nNum_Sample = 35\nValue = [26, 9]"] ;
+38 -> 43
+38 -> 44
+39 [label="BookScoreCount <= 729.5\nGini = 0.5\nNum_Sample = 8\nValue = [4, 4]"] ;
+39 -> 45
+39 -> 46
+40 [label="BookScoreCount <= 1138.5\nGini = 0.32\nNum_Sample = 5\nValue = [1, 4]"] ;
+40 -> 47
+40 -> 48
+41 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+42 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+43 [label="BookScoreCount <= 37.5\nGini = 0.486111\nNum_Sample = 12\nValue = [7, 5]"] ;
+43 -> 49
+43 -> 50
+44 [label="BookScoreCount <= 23\nGini = 0.287335\nNum_Sample = 23\nValue = [19, 4]"] ;
+44 -> 51
+44 -> 52
+45 [label="BookScoreCount <= 1070\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+45 -> 53
+45 -> 54
+46 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+47 [label="BookScoreCount <= 1442.5\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+47 -> 55
+47 -> 56
+48 [label="good\nGini = 0\nNum_Sample = 3\nValue = [0, 3]"] ;
+49 [label="BookScoreCount <= 48\nGini = 0.408163\nNum_Sample = 7\nValue = [2, 5]"] ;
+49 -> 57
+49 -> 58
+50 [label="bad\nGini = 0\nNum_Sample = 5\nValue = [5, 0]"] ;
+51 [label="BookScoreCount <= 31.5\nGini = 0.188366\nNum_Sample = 19\nValue = [17, 2]"] ;
+51 -> 59
+51 -> 60
+52 [label="good <= 0\nGini = 0.5\nNum_Sample = 4\nValue = [2, 2]"] ;
+53 [label="BookScoreCount <= 1921.5\nGini = 0.5\nNum_Sample = 4\nValue = [2, 2]"] ;
+53 -> 61
+53 -> 62
+54 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+55 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+56 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+57 [label="BookScoreCount <= 68.5\nGini = 0.48\nNum_Sample = 5\nValue = [2, 3]"] ;
+57 -> 63
+57 -> 64
+58 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+59 [label="BookScoreCount <= 76\nGini = 0.124444\nNum_Sample = 15\nValue = [14, 1]"] ;
+59 -> 65
+59 -> 66
+60 [label="BookScoreCount <= 28\nGini = 0.375\nNum_Sample = 4\nValue = [3, 1]"] ;
+60 -> 67
+60 -> 68
+61 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+62 [label="BookScoreCount <= 1708\nGini = 0.444444\nNum_Sample = 3\nValue = [2, 1]"] ;
+62 -> 69
+62 -> 70
+63 [label="Mode <= 9\nGini = 0.375\nNum_Sample = 4\nValue = [1, 3]"] ;
+63 -> 71
+63 -> 72
+64 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+65 [label="BookScoreCount <= 81\nGini = 0.244898\nNum_Sample = 7\nValue = [6, 1]"] ;
+65 -> 73
+65 -> 74
+66 [label="bad\nGini = 0\nNum_Sample = 8\nValue = [8, 0]"] ;
+67 [label="good <= 0\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+68 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+69 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+70 [label="BookScoreCount <= 1410\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+70 -> 75
+70 -> 76
+71 [label="BookScoreCount <= 99\nGini = 0.5\nNum_Sample = 2\nValue = [1, 1]"] ;
+71 -> 77
+71 -> 78
+72 [label="good\nGini = 0\nNum_Sample = 2\nValue = [0, 2]"] ;
+73 [label="bad\nGini = 0\nNum_Sample = 6\nValue = [6, 0]"] ;
+74 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+75 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+76 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+77 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+78 [label="good\nGini = 0\nNum_Sample = 1\nValue = [0, 1]"] ;
+}

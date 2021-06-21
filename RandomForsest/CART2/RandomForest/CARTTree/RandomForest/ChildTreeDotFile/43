@@ -1,0 +1,44 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Median <= 7\nGini = 0.499774\nNum_Sample = 94\nValue = [48, 46]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+1 [label="Median <= 9\nGini = 0.444444\nNum_Sample = 30\nValue = [10, 20]"] ;
+1 -> 3
+1 -> 4
+2 [label="Mode <= 3\nGini = 0.482422\nNum_Sample = 64\nValue = [38, 26]"] ;
+2 -> 5
+2 -> 6
+3 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+4 [label="Mode <= 7\nGini = 0.428062\nNum_Sample = 29\nValue = [9, 20]"] ;
+4 -> 7
+4 -> 8
+5 [label="Median <= 5\nGini = 0.453145\nNum_Sample = 49\nValue = [32, 17]"] ;
+5 -> 9
+5 -> 10
+6 [label="Median <= 3\nGini = 0.48\nNum_Sample = 15\nValue = [6, 9]"] ;
+6 -> 11
+6 -> 12
+7 [label="Mode <= 9\nGini = 0.408163\nNum_Sample = 28\nValue = [8, 20]"] ;
+7 -> 13
+7 -> 14
+8 [label="bad\nGini = 0\nNum_Sample = 1\nValue = [1, 0]"] ;
+9 [label="Mode <= 9\nGini = 0.478096\nNum_Sample = 43\nValue = [26, 17]"] ;
+9 -> 15
+9 -> 16
+10 [label="bad\nGini = 0\nNum_Sample = 6\nValue = [6, 0]"] ;
+11 [label="Median <= 5\nGini = 0.426036\nNum_Sample = 13\nValue = [4, 9]"] ;
+11 -> 17
+11 -> 18
+12 [label="bad\nGini = 0\nNum_Sample = 2\nValue = [2, 0]"] ;
+13 [label="good <= 0\nGini = 0.336735\nNum_Sample = 14\nValue = [3, 11]"] ;
+14 [label="good <= 0\nGini = 0.459184\nNum_Sample = 14\nValue = [5, 9]"] ;
+15 [label="bad\nGini = 0\nNum_Sample = 3\nValue = [3, 0]"] ;
+16 [label="Mode <= 7\nGini = 0.48875\nNum_Sample = 40\nValue = [23, 17]"] ;
+16 -> 19
+16 -> 20
+17 [label="good <= 0\nGini = 0.408163\nNum_Sample = 7\nValue = [2, 5]"] ;
+18 [label="good <= 0\nGini = 0.444444\nNum_Sample = 6\nValue = [2, 4]"] ;
+19 [label="bad <= 0\nGini = 0.48\nNum_Sample = 10\nValue = [6, 4]"] ;
+20 [label="bad <= 0\nGini = 0.491111\nNum_Sample = 30\nValue = [17, 13]"] ;
+}

@@ -1,0 +1,17 @@
+Features,PerSon
+BookScoreCount-AddListCount,0.948246100
+BookScore-FiveStarRate,0.927599101
+BookScore-FourStarRate,0.867332102
+ThreeStarRate-FourStarRate,0.844929103
+FourStarRate-FiveStarRate,0.813627104
+TwoStarRate-ThreeStarRate,0.811507105
+BookScore-Median,0.741084106
+Mode-Median,0.720833107
+ThreeStarRate-FiveStarRate,0.705757108
+TwoStarRate-FourStarRate,0.701086109
+BookScore-ThreeStarRate,0.696041010
+BookScore-Mode,0.6374821011
+BookWordCount-BookScoreCount,0.6005011012
+FiveStarRate-Median,0.589941013
+Median-Kurtosis,0.548831014
+TwoStarRate-FiveStarRate,0.538541015
